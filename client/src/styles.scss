@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+@use "./variables.scss" as v;
+@import "normalize.css";
+// @import "~@progress/kendo-theme-default/dist/all.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import "~css-star-rating/css/star-rating.min.css";
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  --bs-pagination-focus-box-shadow: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f6f8;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #eaeaea;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: overlay;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  color: var(--text-color);
+  overflow: hidden;
+
+  .k-notification-group {
+    // top: 10% !important;
+    z-index: 9999999999999999999;
+    .k-notification {
+      padding: 12px;
+    }
+  }
+}
+
+ul {
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+  line-height: unset !important;
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+}
+
+//Container css canh giữa layout
+.container {
+  width: 1110px;
+  margin: 0 auto 0 auto;
+}
+
+.button {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

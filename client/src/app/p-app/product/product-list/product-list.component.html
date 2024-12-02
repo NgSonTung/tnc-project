@@ -1,0 +1,90 @@
+<app-breadcrumb [plusBreadCrumbText]="[categoryName]"></app-breadcrumb>
+<div class="wrapper">
+  <div class="wrapper-filter">
+    <div class="title-filter"><span>Bộ lọc sản phẩm</span></div>
+    <div class="box-filter" *ngFor="let item of allDataDropdowns">
+      <dropdown-filter
+        [titleFilter]="item.titleFilter"
+        [data]="item"
+        (filterURL)="handleURL($event)"
+      >
+      </dropdown-filter>
+      <!-- <dropdown-filter activeSearch="true"> </dropdown-filter> -->
+      <!-- <dropdown-filter> </dropdown-filter> -->
+    </div>
+    <div class="box-filter">
+      <dropdown-filter
+        filterbyPrice="true"
+        (filterPrice)="handleFilterPrice($event)"
+      >
+      </dropdown-filter>
+    </div>
+  </div>
+  <div class="wrapper-product-list">
+    <div class="title-sort">
+      <div class="title-filter-total">
+        <span>{{ keyFilter }}</span
+        ><span>{{ totalProduct }}</span>
+      </div>
+      <div class="orderby">
+        <span>Sắp xếp theo :</span>
+        <div class="box-dropdown-order-by">
+          <kendo-dropdownlist
+            [data]="listDataASC"
+            [value]="selectedValue"
+            class="dropdown-order-by"
+            (selectionChange)="handleDropdownSelectionChange($event)"
+          >
+          </kendo-dropdownlist>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="isLoading" class="loading-indicator">
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div *ngIf="!isLoading" class="box-products">
+      <div
+        *ngIf="arrlabelFilter && arrlabelFilter.length > 0"
+        class="box-label-filter"
+      >
+        <span>Lọc theo:</span>
+        <div *ngFor="let item of arrlabelFilter">
+          <div class="item-label-filter">
+            <span>{{ item.labelName }}</span
+            ><img
+              src="../../../../assets/icon/close.png"
+              alt="close-icon"
+              (click)="handleCloseFilter(item)"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="product-list">
+        <div
+          *ngFor="
+            let data of productList
+              | paginate
+                : {
+                    itemsPerPage: pageSize,
+                    currentPage: page,
+                    totalItems: totalItems
+                  }
+          "
+        >
+          <box-product [data]="data"></box-product>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper-pagination">
+      <pagination-controls
+        (pageChange)="handlePageChange($event)"
+        previousLabel="Trước"
+        nextLabel="Sau"
+      ></pagination-controls>
+    </div>
+  </div>
+</div>

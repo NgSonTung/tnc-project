@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript">
+      function loadScript(url) {
+        const script = document.createElement("script");
+        script.type = "text/javascript";
+        const time = new Date().getTime();
+        script.src = url + "?v=" + time;
+        document.body.appendChild(script);
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        loadScript("http://localhost:4200/assets/webai-pilot-widget.js");
+      });
+    </script>
+    <plug-widget
+      key="sk-9547f17c-411d-423f-a080-f6916a14ca8b"
+      api="http://127.0.0.1:5000/plug/api/v1"
+      isshowsetting="true"
+      issliderplug="false"
+    >
+    </plug-widget>
+    <meta charset="utf-8" />
+    <title>TncProject</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
+</html>

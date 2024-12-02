@@ -1,0 +1,17 @@
+.warpper{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  align-items: center;
+  padding-bottom: 1rem;
+  button{
+    cursor: pointer;
+    background-color: rgb(249,73,95);
+    padding: 0.8rem 0.5rem;
+    width: 100%;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "CategoryID": 1,
+    "CategoryName": "headphone"
+  },
+  {
+    "CategoryID": 2,
+    "CategoryName": "keyboard"
+  },
+  {
+    "CategoryID": 3,
+    "CategoryName": "laptop"
+  },
+  {
+    "CategoryID": 4,
+    "CategoryName": "networkdevice"
+  },
+  {
+    "CategoryID": 5,
+    "CategoryName": "phone"
+  },
+  {
+    "CategoryID": 6,
+    "CategoryName": "tablet"
+  },
+  {
+    "CategoryID": 7,
+    "CategoryName": "watch"
+  },
+  {
+    "CategoryID": 8,
+    "CategoryName": "tv"
+  }
+]

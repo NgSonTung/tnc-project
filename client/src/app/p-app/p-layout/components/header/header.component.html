@@ -1,0 +1,135 @@
+<div class="header-wrapper">
+  <div class="header-hotline">
+    <div class="container">
+      <p class="hotline">Hotline : (086) 830.2123 • Email: cskh@tncstore.vn</p>
+    </div>
+  </div>
+  <div class="header-main">
+    <div class="container">
+      <div class="header-items">
+        <div [routerLink]="''" class="header-logo">
+          <img src="../../../../../assets/img/tnc-logo.svg" />
+        </div>
+        <form class="search-box">
+          <input
+            class="search-input"
+            [formControl]="searchInputValue"
+            type="text"
+            placeholder="Nhập sản phẩm cần tìm.."
+          />
+          <div class="search-button">
+            <img src="../../../.././../assets/icon/search-icon.svg" />
+          </div>
+
+          <div
+            #searchContainer
+            class="search-products-wrapper"
+            *ngIf="searchedProductList.length > 0"
+          >
+            <div
+              class="product-item"
+              *ngFor="let data of searchedProductList | slice : 0 : 5"
+              (click)="navigateDetail(data.Name)"
+            >
+              <img
+                class="product-img"
+                [src]="'data:image/jpeg;base64,' + data.Base64Image"
+                [alt]="data.Image"
+              />
+              <div class="product-info">
+                <p class="name">{{ data.Name }}</p>
+                <p class="price">{{ data.Price }}</p>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="group-user-action">
+          <div class="order-management button" (click)="onCheckoutOrder()">
+            <img src="../../../../../assets/icon/icon_shipping.svg" />
+            <span class="text"
+              >Tra cứu <br />
+              đơn hàng</span
+            >
+          </div>
+          <div (click)="toggleCart()" class="header-cart button">
+            <img src="../../../../../assets/icon/cart-icon.svg" />
+            <span class="cart-quantity">{{ cartItems }}</span>
+          </div>
+          <div
+            *ngIf="!isLoggedIn"
+            class="signin button"
+            (click)="toggleRegister()"
+          >
+            Đăng nhập
+          </div>
+          <kendo-dropdownbutton
+            *ngIf="isLoggedIn"
+            [data]="userMenu"
+            themeColor="info"
+          >
+            <div>
+              <span class="k-icon k-i-user"></span>
+              {{ userName }}
+            </div>
+            <ng-template kendoDropDownButtonItemTemplate let-dataItem>
+              <div (click)="onHandleMenu(dataItem.text)">
+                <span class="k-icon {{ dataItem.icon }}"></span>
+                <span>{{ dataItem.text }}</span>
+              </div>
+            </ng-template>
+          </kendo-dropdownbutton>
+        </div>
+      </div>
+    </div>
+    <div class="header-navigation-container">
+      <div class="container">
+        <div class="header-nav-list">
+          <div class="header-nav-items-left">
+            <div class="header-item-left" *ngFor="let item of headerMenuItems">
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 16px;
+                  padding: 15px 0;
+                "
+                (click)="onNavigate(item.path)"
+              >
+                <img src="../../../../../assets/icon/{{ item.icon }}" />
+                <p
+                  class="item-title"
+                  [ngClass]="{ blink: item.text === 'XẢ KHO GEAR CỰC CHẤT' }"
+                >
+                  {{ item.text }}
+                </p>
+                <span
+                  [hidden]="!(item.items.length > 0)"
+                  class="k-icon k-i-arrow-chevron-down"
+                ></span>
+              </div>
+              <ng-container *ngIf="item.items.length > 0">
+                <ul class="sub-menu-list">
+                  <li
+                    *ngFor="let subMenu of item.items"
+                    (click)="onNavigate('category/' + subMenu.path)"
+                  >
+                    {{ subMenu.text | uppercase }}
+                  </li>
+                </ul>
+              </ng-container>
+            </div>
+          </div>
+          <div class="header-navigation-right">
+            <img src="../../../../../assets/icon/fb-icon.svg" />
+            <img
+              src="../../../../../assets/icon/instagram-icon.svg
+            "
+            />
+            <img src="../../../../../assets/icon/yt-icon.svg" />
+            <img src="../../../../../assets/icon/png-xanh.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="chat-container">
+  <div (click)="onExit()" class="chat-session">
+    <div class="chat-close button"><img src="assets/xmark-solid.svg" /></div>
+    Session 1
+  </div>
+  <div *ngIf="loading; else messages" class="chat-loading">
+    <div></div>
+    <div></div>
+  </div>
+  <ng-template #messages>
+    <div class="chat-messages">
+      <app-message
+        *ngFor="let message of messageList"
+        [role]="message.role"
+        [message]="message.content"
+        [name]="message.name"
+      ></app-message>
+    </div>
+  </ng-template>
+  <div class="chat-input">
+    <div class="chat-input-wrapper">
+      <input #inputRef placeholder="Enter message" type="text" />
+    </div>
+    <div (click)="sendMessage()" class="chat-submit button">Send</div>
+  </div>
+</div>

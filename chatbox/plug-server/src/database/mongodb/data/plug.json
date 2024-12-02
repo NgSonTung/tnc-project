@@ -1,0 +1,95 @@
+[
+    {
+        "id": "647f3c5170b47d535c175511",
+        "model": "gpt-3.5-turbo-0613",
+        "plugName": "Plug test plan1",
+        "features": [
+            "upload files",
+            "crawl website"
+        ],
+        "createdAt": "2023-06-16T01:53:53.960+00:00",
+        "userId": "64aff45ae43f3103da6f1b52",
+        "client": {
+            "origin": "",
+            "key": "sk-8bca3bde-862f-4afc-911d-d3851e129abf"
+        }
+    },
+    {
+        "id": "647f3c5170b47d535c175512",
+        "model": "gpt-4",
+        "plugName": "Plug test plan2",
+        "features": [
+            "upload files",
+            "crawl website"
+        ],
+        "createdAt": "2023-06-16T01:53:53.960+00:00",
+        "userId": "64aff45ae43f3103da6f1b53",
+        "client": {
+            "origin": "",
+            "key": "sk-1bfabb3e-862f-4efc-911d-d3851e319vbf"
+        }
+    },
+    {
+        "id": "647f3c5170b47d535c175513",
+        "model": "gpt-4",
+        "features": [
+            "crawl website",
+            "save conversation",
+            "upload files"
+        ],
+        "createdAt": "2023-06-16T01:53:53.960+00:00",
+        "userId": "64aff45ae43f3103da6f1b54",
+        "plugName": "Plug test plan3",
+        "client": {
+            "origin": "",
+            "key": "sk-8bca3bde-862f-4afc-911d-d3858e069470"
+        }
+    },
+    {
+        "id": "647f3c5170b47d535c175515",
+        "plugName": "Plug test",
+        "model": "gpt-4",
+        "features": [
+            "crawl website",
+            "save conversation",
+            "upload files"
+        ],
+        "createdAt": "2023-06-16T01:53:53.960+00:00",
+        "userId": "64aff45ae43f3103da6f1b55",
+        "client": {
+            "origin": "",
+            "key": "sk-8bca3bde-862f-4afc-911d-d3858e069471"
+        }
+    },
+    {
+        "id": "647f3c5170b47d535c175516",
+        "plugName": "Plug data test",
+        "model": "gpt-4",
+        "features": [
+            "crawl website",
+            "save conversation",
+            "upload files"
+        ],
+        "createdAt": "2023-06-16T01:53:53.960+00:00",
+        "userId": "64aff45ae43f3103da6f1b55",
+        "client": {
+            "origin": "",
+            "key": "sk-8bca3bde-862f-4afc-911d-d3858e069472"
+        }
+    },
+    {
+        "id": "647f3c5170b47d535c175514",
+        "plugName": "WEBAI-PILOT-WEBSITE-PLUG",
+        "userId": "64aff45ae43f3103da6f1b56",
+        "model": "gpt-4",
+        "features": [
+            "crawl website",
+            "save conversation",
+            "upload files"
+        ],
+        "client": {
+            "origin": "https://www.2gai.ai",
+            "key": "sk-3ea232fa-eadb-81cz-3ca1-d22ed21ve3fz"
+        }
+    }
+]

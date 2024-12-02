@@ -1,0 +1,30 @@
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" [ngSwitch]="type">
+  <ng-container *ngSwitchCase="'img'">
+    <div *ngFor="let img of imgs">
+      <div ngxSlickItem class="slide">
+        <img width="100%" src="{{ img }}" />
+      </div>
+    </div>
+  </ng-container>
+  <ng-container *ngSwitchCase="'subimgs'">
+    <div *ngFor="let img of imgs">
+      <div ngxSlickItem class="slide">
+        <img width="100%" src="{{ img }}" />
+      </div>
+    </div>
+  </ng-container>
+  <ng-container *ngSwitchCase="'product'">
+    <div *ngFor="let item of sliderProducts">
+      <div ngxSlickItem class="slide">
+        <box-product [data]="item"></box-product>
+      </div>
+    </div>
+  </ng-container>
+  <ng-container *ngSwitchCase="'brand'">
+    <div *ngFor="let img of imgs">
+      <div ngxSlickItem class="slide">
+        <img [src]="img" />
+      </div>
+    </div>
+  </ng-container>
+</ngx-slick-carousel>

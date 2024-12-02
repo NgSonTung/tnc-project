@@ -1,0 +1,28 @@
+<div
+  [ngClass]="
+    role == 'user' ? 'message_container_user' : 'message_container_assistant'
+  "
+>
+  <div class="message-avatar">
+    <img
+      *ngIf="role == 'user'; else userAvatar"
+      src="assets/face-smile-regular.svg"
+    />
+
+    <ng-template #userAvatar>
+      <img src="assets/robot-solid.svg" />
+    </ng-template>
+  </div>
+
+  <div
+    [ngClass]="
+      role == 'user' ? 'message_wrapper_user' : 'message_wrapper_assistant'
+    "
+  >
+    <div markdown="1" *ngIf="role == 'function'; else imgMsg">
+      <img [src]="imageSrc" alt="response-img" />
+    </div>
+
+    <ng-template #imgMsg> {{ message }} </ng-template>
+  </div>
+</div>

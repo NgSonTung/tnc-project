@@ -1,0 +1,98 @@
+[
+  {
+    "BrandID": 1,
+    "BrandName": "acer"
+  },
+  {
+    "BrandID": 2,
+    "BrandName": "apple"
+  },
+  {
+    "BrandID": 3,
+    "BrandName": "asus"
+  },
+  {
+    "BrandID": 4,
+    "BrandName": "ava"
+  },
+  {
+    "BrandID": 5,
+    "BrandName": "befit"
+  },
+  {
+    "BrandID": 6,
+    "BrandName": "corsair"
+  },
+  {
+    "BrandID": 7,
+    "BrandName": "garmin"
+  },
+  {
+    "BrandID": 8,
+    "BrandName": "honor"
+  },
+  {
+    "BrandID": 9,
+    "BrandName": "hp"
+  },
+  {
+    "BrandID": 10,
+    "BrandName": "xiaomi"
+  },
+  {
+    "BrandID": 11,
+    "BrandName": "huawei"
+  },
+  {
+    "BrandID": 12,
+    "BrandName": "lenovo"
+  },
+  {
+    "BrandID": 13,
+    "BrandName": "linksys"
+  },
+  {
+    "BrandID": 14,
+    "BrandName": "logitech"
+  },
+  {
+    "BrandID": 15,
+    "BrandName": "mesh"
+  },
+  {
+    "BrandID": 16,
+    "BrandName": "mozard"
+  },
+  {
+    "BrandID": 17,
+    "BrandName": "nokia"
+  },
+  {
+    "BrandID": 18,
+    "BrandName": "oppo"
+  },
+  {
+    "BrandID": 19,
+    "BrandName": "poco"
+  },
+  {
+    "BrandID": 20,
+    "BrandName": "rapoo"
+  },
+  {
+    "BrandID": 21,
+    "BrandName": "realme"
+  },
+  {
+    "BrandID": 22,
+    "BrandName": "samsung"
+  },
+  {
+    "BrandID": 23,
+    "BrandName": "tenda"
+  },
+  {
+    "BrandID": 24,
+    "BrandName": "vivo"
+  }
+]

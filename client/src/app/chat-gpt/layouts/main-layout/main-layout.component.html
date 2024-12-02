@@ -1,0 +1,7 @@
+<div class="container">
+  <app-minimized-bar (showChat)="toggleShowChat()"></app-minimized-bar>
+  <app-chat
+    (exit)="toggleShowChat()"
+    class="chat"
+  ></app-chat>
+</div>

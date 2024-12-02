@@ -1,0 +1,429 @@
+[
+  {
+    "id": "64aff45ae43f3103d2fa22e0",
+    "name": "Free",
+    "stripeSubscriptionId": "prod_OgZMolHKdp9wLc",
+    "stripePriceId": "price_1NtCDpGUDZOuemdGZ8aLGG0S",
+    "description": "Unlock powerful feature: GPT-3.5",
+    "models": [
+      "gpt-3.5-turbo-0613"
+    ],
+    "features": [
+      "gpt-3.5",
+      "custom WebAI Pilot plug",
+      "crawl website",
+      "upload files"
+    ],
+    "cost": 0,
+    "currency": "usd",
+    "featuresLimit": [
+      {
+        "name": "gpt-3.5",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "custom WebAI Pilot plug",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "crawl website",
+        "description": "",
+        "limit": 1,
+        "unlimited": false
+      },
+      {
+        "name": "upload files",
+        "description": "",
+        "limit": 1,
+        "unlimited": false
+      }
+    ],
+    "plugLimit": 1,
+    "active": true,
+    "comingSoon": false,
+    "isYearly": false,
+    "updatedAt": "2023-10-30T22:33:14.000Z"
+  },
+  {
+    "id": "64aff45ae43f3103d2fa22e2",
+    "name": "Company",
+    "stripeSubscriptionId": "prod_OgX7J0oFQ4VvdO",
+    "stripePriceId": "price_1Ntp1nGUDZOuemdGnRTdMyGF",
+    "description": "Unlock powerful features: GPT-4, Llama 2 Model, Save Conversation, Web Crawling, APi Access, Custom WebAI Pilot Plug, Upload Files",
+    "models": [
+      "gpt-4"
+    ],
+    "features": [
+      "gpt-4",
+      "llama 2 model",
+      "save conversation",
+      "crawl website",
+      "api access",
+      "custom WebAI Pilot plug",
+      "upload files",
+      "download WebAI Pilot Plug Server"
+    ],
+    "cost": 1199.88,
+    "currency": "usd",
+    "featuresLimit": [
+      {
+        "name": "gpt-4",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "llama 2 model",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "save conversation",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "crawl website",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "api access",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "custom WebAI Pilot plug",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "upload files",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "download WebAI Pilot Plug Server",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      }
+    ],
+    "plugLimit": 10,
+    "active": true,
+    "comingSoon": true,
+    "isYearly": true,
+    "updatedAt": "2023-10-30T16:11:54.000Z"
+  },
+  {
+    "id": "64aff45ae43f3103d2fa22e3",
+    "name": "Company",
+    "stripeSubscriptionId": "prod_OgX7J0oFQ4VvdO",
+    "stripePriceId": "price_1NtA38GUDZOuemdG2czEa30F",
+    "description": "Unlock powerful features: GPT-4, Llama 2 Model, Save Conversation, Web Crawling, APi Access, Custom WebAI Pilot Plug, Upload Files",
+    "models": [
+      "gpt-4"
+    ],
+    "features": [
+      "gpt-4",
+      "llama 2 model",
+      "save conversation",
+      "crawl website",
+      "api access",
+      "custom WebAI Pilot plug",
+      "upload files",
+      "download WebAI Pilot Plug Server"
+    ],
+    "cost": 99.99,
+    "currency": "usd",
+    "featuresLimit": [
+      {
+        "name": "gpt-4",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "llama 2 model",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "save conversation",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "crawl website",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "api access",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "custom WebAI Pilot plug",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "upload files",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "download WebAI Pilot Plug Server",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      }
+    ],
+    "plugLimit": 10,
+    "active": true,
+    "comingSoon": true,
+    "isYearly": false,
+    "updatedAt": "2023-10-30T16:11:54.000Z"
+  },
+  {
+    "id": "64aff45ae43f3103d2fa22e4",
+    "name": "Professional",
+    "stripeSubscriptionId": "prod_OgX3RMQsQCqXzv",
+    "stripePriceId": "price_1Ntp2RGUDZOuemdGO1CjQUMW",
+    "description": "Unlock powerful features: GPT-4 integration, Save conversation,Web crawling, Upload Files",
+    "models": [
+      "gpt-4"
+    ],
+    "features": [
+      "gpt-4",
+      "save conversation",
+      "crawl website",
+      "upload files",
+      "llama 2 model",
+      "custom WebAI Pilot plug"
+    ],
+    "cost": 599.88,
+    "currency": "usd",
+    "featuresLimit": [
+      {
+        "name": "gpt-4",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "save conversation",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "crawl website",
+        "description": "",
+        "limit": 10,
+        "unlimited": false
+      },
+      {
+        "name": "upload files",
+        "description": "",
+        "limit": 10,
+        "unlimited": false
+      },
+      {
+        "name": "llama 2 model",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "custom WebAI Pilot plug",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      }
+    ],
+    "plugLimit": 5,
+    "active": true,
+    "comingSoon": false,
+    "isYearly": true,
+    "updatedAt": "2023-10-30T16:12:06.000Z"
+  },
+  {
+    "id": "64aff45ae43f3103d2fa22e5",
+    "name": "Professional",
+    "stripeSubscriptionId": "prod_OgX3RMQsQCqXzv",
+    "stripePriceId": "price_1Nt9zIGUDZOuemdGjcWznUDW",
+    "description": "Unlock powerful features: GPT-4 integration, Save conversation,Web crawling, Upload Files",
+    "models": [
+      "gpt-4"
+    ],
+    "features": [
+      "gpt-4",
+      "save conversation",
+      "crawl website",
+      "upload files",
+      "llama 2 model",
+      "custom WebAI Pilot plug"
+    ],
+    "cost": 49.99,
+    "currency": "usd",
+    "featuresLimit": [
+      {
+        "name": "gpt-4",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "save conversation",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "crawl website",
+        "description": "",
+        "limit": 10,
+        "unlimited": false
+      },
+      {
+        "name": "upload files",
+        "description": "",
+        "limit": 10,
+        "unlimited": false
+      },
+      {
+        "name": "llama 2 model",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "custom WebAI Pilot plug",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      }
+    ],
+    "plugLimit": 5,
+    "active": true,
+    "comingSoon": false,
+    "isYearly": false,
+    "updatedAt": "2023-10-30T16:12:06.000Z"
+  },
+  {
+    "id": "64aff45ae43f3103d2fa22e6",
+    "name": "Starter",
+    "stripeSubscriptionId": "prod_OfkvQKwJOkZ5iz",
+    "stripePriceId": "price_1Ntp35GUDZOuemdG4NFmBHfq",
+    "description": "Unlock powerful features: GPT-4 integration, Upload Files",
+    "models": [
+      "gpt-4"
+    ],
+    "features": [
+      "gpt-4",
+      "upload files",
+      "crawl website",
+      "custom WebAI Pilot plug"
+    ],
+    "cost": 239.88,
+    "currency": "usd",
+    "featuresLimit": [
+      {
+        "name": "gpt-4",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "upload files",
+        "description": "",
+        "limit": 3,
+        "unlimited": false
+      },
+      {
+        "name": "crawl website",
+        "description": "",
+        "limit": 3,
+        "unlimited": false
+      },
+      {
+        "name": "custom WebAI Pilot plug",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      }
+    ],
+    "plugLimit": 2,
+    "active": true,
+    "comingSoon": false,
+    "isYearly": true,
+    "updatedAt": "2023-10-30T16:12:17.000Z"
+  },
+  {
+    "id": "64aff45ae43f3103d2fa22e7",
+    "name": "Starter",
+    "stripeSubscriptionId": "prod_OfkvQKwJOkZ5iz",
+    "stripePriceId": "price_1NsPPbGUDZOuemdGbAONueJC",
+    "description": "Unlock powerful features: GPT-4 integration, Upload Files",
+    "models": [
+      "gpt-4"
+    ],
+    "features": [
+      "gpt-4",
+      "upload files",
+      "crawl website",
+      "custom WebAI Pilot plug"
+    ],
+    "cost": 19.99,
+    "currency": "usd",
+    "featuresLimit": [
+      {
+        "name": "gpt-4",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      },
+      {
+        "name": "upload files",
+        "description": "",
+        "limit": 3,
+        "unlimited": false
+      },
+      {
+        "name": "crawl website",
+        "description": "",
+        "limit": 3,
+        "unlimited": false
+      },
+      {
+        "name": "custom WebAI Pilot plug",
+        "description": "",
+        "limit": -1,
+        "unlimited": true
+      }
+    ],
+    "plugLimit": 2,
+    "active": true,
+    "comingSoon": false,
+    "isYearly": false,
+    "updatedAt": "2023-10-30T16:12:17.000Z"
+  }
+]

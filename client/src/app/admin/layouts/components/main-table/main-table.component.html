@@ -1,0 +1,177 @@
+<div class="main-table-container">
+  <div class="main-table-header">
+    <div class="main-table-header-info">
+      <p class="main-table-header-name">Quản lí sản phẩm</p>
+      <button kendoButton (click)="openCreateForm()" themeColor="success">
+        THÊM MỚI
+      </button>
+    </div>
+    <div class="main-table-header-btns">
+    </div>
+  </div>
+    <kendo-grid
+    [data]="productList | async"
+    [skip]="skip"
+    [pageSize]="20"
+    [pageable]="true"
+    (pageChange)="pageChange($event)"
+  >
+    <kendo-grid-column title="" [width]="80">
+      <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+        <img
+        class="product-img"
+        [src]="'data:image/jpeg;base64,' + dataItem.Base64Image"
+        [alt]="data.Image"
+        style="width: 50px; height: 40px;"
+        />
+      </ng-template>
+    </kendo-grid-column>
+    <kendo-grid-column title="Name">
+      <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+        {{ dataItem.Name }}
+      </ng-template>
+    </kendo-grid-column>
+    <kendo-grid-column title="Số lượng" [width]="80">
+      <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+        {{ dataItem.Stock }}
+      </ng-template>
+    </kendo-grid-column>
+    <kendo-grid-column title="Giá sản phẩm" [width]="180">
+      <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+        {{ dataItem.Price | number: '1.0-0' }}
+      </ng-template>
+    </kendo-grid-column>
+    <kendo-grid-column [width]="120">
+      <ng-template kendoGridCellTemplate let-dataItem>
+        <button
+          class="cancel-order"
+          kendoButton
+          [themeColor]="'info'"
+          (click)="selectProduct(dataItem)"
+        >
+          Chi tiết
+        </button>
+      </ng-template>
+    </kendo-grid-column>
+  </kendo-grid>
+
+  <div class="product-form-wrapper" *ngIf="isSelectedProduct">
+    <div class="close-btn" (click)="isSelectedProduct = false">X</div>
+    <form class="product-form" [formGroup]="productForm" enctype="multipart/form-data">
+      <img
+      class="product-img"
+      [src]="'data:image/jpeg;base64,' + selectedProduct?.Base64Image"
+      [alt]="data.Image"
+      style="width: 50px; height: 40px;"
+      />
+      <input #imageInput type="file" (change)="updateImg(imageInput)" accept="image/*">
+      <div class="input-form">
+        <label>Tên sản phẩm</label>
+        <input type="text" formControlName="Name">
+      </div>
+      <div class="input-form">
+        <label>Số lượng sản phẩm</label>
+        <input type="number" formControlName="Stock">
+      </div>
+      <div class="input-form">
+        <label>Giá sản phẩm</label>
+        <input type="number" formControlName="Price">
+      </div>
+      <div class="input-form">
+        <label>Mô tả sản phẩm</label>
+        <textarea type="text" formControlName="Description"></textarea>
+      </div>
+    </form>
+
+    <div class="btn-update">
+      <button
+      class="cancel-order"
+      kendoButton
+      [themeColor]="'primary'"
+      (click)="isDeletePopupOpened = true"
+      >
+        Xóa sản phẩm
+      </button>
+
+      <button
+      class="cancel-order"
+      kendoButton
+      [themeColor]="'info'"
+      (click)="updateProductHandle()"
+    >
+      Cập nhật sản phẩm
+    </button>
+    </div>
+  </div>
+
+  <kendo-dialog
+      title="Xóa sản phẩm"
+      *ngIf="isDeletePopupOpened"
+      (close)="isDeletePopupOpened = false"
+      [minWidth]="250"
+      [width]="450"
+    >
+      <p style="margin: 30px; text-align: center;">
+        Bạn có chắc muốn xóa sản phẩm này ?
+        Sau khi xóa sẽ không khôi phục lại được !
+      </p>
+      <kendo-dialog-actions>
+        <button kendoButton (click)="isDeletePopupOpened = false">Không</button>
+        <button kendoButton (click)="deleteProduct()" themeColor="primary">
+          Có
+        </button>
+      </kendo-dialog-actions>
+  </kendo-dialog>
+  
+  <kendo-dialog
+  title="Tạo mới sản phẩm"
+  *ngIf="isCreatePopupOpened"
+  (close)="isCreatePopupOpened = false"
+  [minWidth]="250"
+  [width]="500"
+>
+  <form class="product-form" [formGroup]="productForm">
+    <input #imageInput type="file" (change)="uploadFile(imageInput)" accept="image/*">
+    <div class="input-form">
+      <label>Tên sản phẩm</label>
+      <input type="text" formControlName="Name">
+    </div>
+    <div class="input-form">
+      <label>Số lượng sản phẩm</label>
+      <input type="number" formControlName="Stock">
+    </div>
+    <div class="input-form">
+      <label>Giá sản phẩm</label>
+      <input type="number" formControlName="Price">
+    </div>
+    <div class="input-form">
+      <label>Giảm giá</label>
+      <input type="number" formControlName="Sale">
+    </div>
+    <div class="input-form">
+      <label>Mô tả sản phẩm</label>
+      <textarea type="text" formControlName="Description"></textarea>
+    </div>
+    <div class="input-form">
+      <label>Danh mục</label>
+      <kendo-dropdownlist 
+        [data]="listCategory | async" textField="CategoryName"
+        valueField="CategoryID" formControlName="CategoryID" [valuePrimitive]="true">
+      </kendo-dropdownlist>
+    </div>
+    <div class="input-form">
+      <label>Thương hiệu</label>
+      <kendo-dropdownlist [data]="listBrand | async" textField="BrandName" [valuePrimitive]="true" formControlName="BrandID"
+      valueField="BrandID">></kendo-dropdownlist>
+    </div>
+
+  </form>
+  <kendo-dialog-actions>
+    <button kendoButton (click)="isCreatePopupOpened = false">Hủy tạo</button>
+    <button kendoButton (click)="createProduct()" themeColor="primary">
+      Tạo mới sản phẩm
+    </button>
+  </kendo-dialog-actions>
+</kendo-dialog>
+
+</div>

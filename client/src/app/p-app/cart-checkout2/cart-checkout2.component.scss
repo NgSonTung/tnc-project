@@ -1,0 +1,304 @@
+.cart-container {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 3.5rem;
+
+  .cart-title {
+    font-size: 1.8rem;
+    color: #29324e;
+    font-weight: 800;
+  }
+
+  .cart-content {
+    margin-top: 2.5rem;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: space-between;
+
+    .cart-item-wrapper {
+      width: 61%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+
+      .cart-item-title {
+        font-size: 1.8rem;
+        color: #29324e;
+        font-weight: 800;
+        text-align: left;
+        width: 100%;
+      }
+
+      .cart-item-sub-wrapper {
+        flex: 1;
+        width: 100%;
+        border: 1px #d8d8d8 solid;
+
+        .cart-item-placeholder {
+          font-size: 1.35rem;
+          font-weight: 600;
+          color: #6e6e6e;
+          text-align: center;
+          position: relative;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+      }
+
+      .cart-item-sub-wrapper2 {
+        display: flex;
+        background-color: #ffffff;
+        width: 100%;
+        margin-top: 1rem;
+
+        .asterik {
+          color: red;
+          font-size: 13px;
+          margin-left: 5px;
+        }
+        .cart-item-info {
+          width: 100%;
+          padding-bottom: 10rem;
+
+          .cart-item-title {
+            font-weight: 700;
+            font-size: 20px;
+            color: #29324e;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+          }
+
+          .cart-item-input {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 15px;
+
+            .cart-item-checkbox {
+              width: 24px;
+              height: 24px;
+              border: 1px solid #99a0ad;
+              border-radius: none;
+              margin-right: 16px;
+            }
+
+            .cart-item-checkbox-label {
+              font-weight: 600;
+              font-size: 16px;
+              color: #000;
+              width: auto;
+            }
+
+            .cart-item-label {
+              font-size: 16px;
+              color: #333;
+              width: 50% !important;
+            }
+
+            .cart-item-text {
+              width: 100%;
+              padding: 0 10px;
+              background-color: #f0f3fc;
+              border: none;
+              text-indent: 12px;
+              height: 46px;
+              align-self: self-end;
+            }
+          }
+
+          .cart-item-input {
+            .cart-item-radio {
+              width: 24px !important;
+              height: 24px;
+              margin-right: 16px;
+            }
+
+            .cart-item-label {
+              width: 100%;
+              white-space: nowrap;
+              font-size: 16px;
+              color: #000;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    .cart-info-wrapper {
+      width: 36%;
+      height: fit-content;
+
+      .cart-info-sub-wrapper {
+        background-color: #f0f3fc;
+        height: fit-content;
+        padding: 1rem 2.5rem;
+        margin-bottom: 2rem;
+
+        .cart-info-title {
+          font-size: 1.65rem;
+          padding-bottom: 1rem;
+        }
+
+        .cart-info-quantity,
+        .cart-info-total {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+
+          .cart-info-quantity-txt,
+          .cart-info-total-txt {
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding: 0.5rem 0;
+          }
+
+          .cart-info-quantity-no {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #005ec4;
+          }
+
+          .cart-info-total-no {
+            font-size: 1.9rem;
+            font-weight: 600;
+            color: #f9495f;
+          }
+        }
+
+        .cart-info-tax {
+          font-size: 1.3rem;
+          font-weight: 500;
+          color: #6e6e6e;
+          text-align: end;
+          padding-top: 0.7rem;
+        }
+
+        .cart-info-product {
+          .cart-info-product-name {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #005ec4;
+          }
+
+          .cart-info-product-price {
+            color: #000;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-align: right;
+          }
+        }
+
+        .checkout-btn-wrapper,
+        .delete-btn-wrapper,
+        .other-btn-wrapper {
+          background-color: #005ec4;
+          text-align: center;
+          padding: 1.2rem 0;
+          margin: 1.5rem 0;
+          cursor: pointer;
+
+          .checkout-btn-txt,
+          .delete-btn-txt,
+          .other-btn-txt {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 600;
+          }
+        }
+
+        .other-btn-wrapper {
+          background-color: #ffffff;
+          border: 1px solid #005ec4;
+
+          .other-btn-txt {
+            color: #005ec4;
+          }
+        }
+
+        .delete-btn-wrapper {
+          background-color: #ed1b24;
+        }
+      }
+
+      .cart-info-features {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #6e6e6e;
+        letter-spacing: 0.3px;
+        padding: 0.3rem 0;
+        display: flex;
+        gap: 1.2rem;
+      }
+
+      .cart-info-payments {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+
+        .cart-info-payment {
+          width: auto;
+          height: 4rem;
+        }
+      }
+    }
+  }
+}
+
+.steps-container {
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+
+  .step-wrapper {
+    background-color: #135ec4;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 7px 0;
+    height: fit-content;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewX(-20deg);
+    color: #ffffff;
+
+    .step-title {
+      font-size: 1.5rem;
+      transform: skewX(20deg);
+    }
+  }
+
+  .step1::before {
+    content: "";
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: -7px;
+    background: #135ec4;
+    transform: skewX(20deg);
+  }
+
+  .step3::after {
+    content: "";
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: -7px;
+    background: #135ec4;
+    transform: skewX(20deg);
+  }
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 3rem 0;
+}

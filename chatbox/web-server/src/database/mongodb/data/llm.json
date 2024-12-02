@@ -1,0 +1,14 @@
+[
+    {
+        "id": "647f3c5170a47ba15b175121",
+        "name": "gpt-4",
+        "provider": "OpenAI",
+        "description": "Newest LLM from OpenAI capable of reasoning, built upon gpt-3 model."
+    },
+    {
+        "id": "647f3c5170a47ba15b175122",
+        "name": "llama2",
+        "provider": "Meta",
+        "description": "Meta's brand new large language model."
+    }
+]

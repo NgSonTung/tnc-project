@@ -1,0 +1,72 @@
+.header-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+
+  .header-title {
+    color: var(--gray-900, #101828);
+    font-size: 1.7rem;
+  }
+
+  .header-menu-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .header-menu-item {
+      width: 2rem;
+      aspect-ratio: 1;
+      display: flex;
+      justify-content: center;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+
+      .header-menu-item-setttings,
+      .header-menu-item-notif {
+        object-fit: none;
+      }
+    }
+
+    .header-menu-item:hover {
+      opacity: 0.7;
+    }
+
+    .header-menu-profile {
+      width: 2rem;
+      aspect-ratio: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      .header-menu-profile-img {
+        object-fit: cover;
+        width: 100%;
+        aspect-ratio: 1;
+        border-radius: 100rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-title {
+    font-size: 1.5rem !important;
+  }
+
+  .header-menu-wrapper {
+    .header-menu-item {
+      display: none !important;
+    }
+  }
+}
+
+::ng-deep .header-menu-profile {
+  .k-i-logout::before {
+    font-size: 21px;
+    color: currentcolor;
+    cursor: pointer;
+  }
+}

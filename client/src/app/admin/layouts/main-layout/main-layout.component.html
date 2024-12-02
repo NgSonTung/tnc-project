@@ -1,0 +1,20 @@
+<div class="layout-container">
+  <!-- 
+    <div
+    class="dashboard-navbar-background"
+    [ngClass]="{ 'dashboard-navbar-background-hidden': !navShown }"
+    (click)="toggleNav()"
+  ></div>
+  <app-nav-menu
+    class="dashboard-navbar"
+    [ngClass]="{ 'dashboard-navbar-hidden': !navShown }"
+  >
+  </app-nav-menu> -->
+  <app-nav-menu class="layout-navbar"></app-nav-menu>
+  <div class="dashboard-main-container">
+    <app-header class="layout-header" />
+    <div class="layout-body-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

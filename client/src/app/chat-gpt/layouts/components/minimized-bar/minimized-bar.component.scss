@@ -1,0 +1,44 @@
+@use "../../../../../variables.scss" as v;
+
+.minimized-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: v.$primaryColor;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px 12px;
+  border-radius: 10rem;
+  border: 2px solid v.$secondaryColor;
+  user-select: none;
+
+  .minimized-bar-item:nth-child(2),
+  .minimized-bar-item:nth-child(3) {
+    display: none;
+  }
+  .minimized-bar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 12px;
+    padding: 8px;
+    background-color: v.$secondaryColor;
+    border-radius: 50%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.bar_item_active {
+  display: flex !important;
+}
+
+.minimized-bar-container:hover {
+  cursor: grab;
+}

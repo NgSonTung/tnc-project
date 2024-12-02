@@ -1,0 +1,39 @@
+::ng-deep .wrapper {
+    background-color: #f4f6f8;
+    .k-drawer-container {
+
+        .k-drawer {
+            background-color: #f6fbfc;
+            
+            .k-drawer-wrapper {
+                
+                .k-drawer-items {
+                    
+                    .k-selected {
+                        background-color: unset;
+                    }
+                    .k-drawer-item {
+
+                        &:hover {
+                            background-color: #74a1d338;
+                        }
+
+                        .k-drawer-link {
+
+                            &.selected {
+                                background-color: #005ec4;
+                                color: white;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .k-drawer-content {
+            margin: 10px 0 0 10px;
+            height: 100vh;
+        }
+    }
+}

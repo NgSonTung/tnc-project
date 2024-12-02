@@ -1,0 +1,47 @@
+<div class="home-wrapper">
+  <div class="main-slider">
+    <app-slider-container
+      [slidesToShow]="1"
+      [slidesToScroll]="1"
+      [imgs]="mainBanner"
+      [type]="'img'"
+    ></app-slider-container>
+  </div>
+
+  <div class="sub-slider">
+    <app-slider-container
+      [slidesToShow]="2"
+      [slidesToScroll]="1"
+      [imgs]="subBanner"
+      [type]="'img'"
+    ></app-slider-container>
+  </div>
+</div>
+<nav-title [inputTitle]="'DANH MỤC SẢN PHẨM'"></nav-title>
+<div class="category-wrapper">
+  <app-category-item
+    *ngFor="let category of productCategories"
+    class="category-item"
+    [title]="category.CategoryName"
+    [subTitle]="category.subTitle"
+    [img]="category.img"
+    [color]="category.color"
+  ></app-category-item>
+</div>
+<nav-title [inputTitle]="'SẢN PHẨM GIẢM GIÁ'"></nav-title>
+<app-slider-container
+  [slidesToShow]="4"
+  [slidesToScroll]="1"
+  [sliderProducts]="sliderProducts"
+  [type]="'product'"
+></app-slider-container>
+<nav-title [inputTitle]="'CÁC THƯƠNG HIỆU'"></nav-title>
+<div class="brand-slider">
+  <app-slider-container
+    [autoPlay]="false"
+    [slidesToShow]="6"
+    [slidesToScroll]="1"
+    [imgs]="brandSlider"
+    [type]="'img'"
+  ></app-slider-container>
+</div>

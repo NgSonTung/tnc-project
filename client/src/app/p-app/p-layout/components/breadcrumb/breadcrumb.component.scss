@@ -1,0 +1,35 @@
+::ng-deep .breadcrumb-wrapper {
+    margin: 20px 0;
+
+    .k-breadcrumb {
+
+        .k-breadcrumb-container {
+            .k-breadcrumb-item {
+
+                .item {
+                    padding: 0 15px;
+                    cursor: pointer;
+                    user-select: none;
+
+                    &:first-child {
+                        padding: unset;
+                        padding-right: 20px;
+                    }
+
+                    .title {
+                        color: #29324e;
+                        font-size: 18px;
+                        font-weight: 400;
+                        padding-left: 15px;
+                    }
+
+                }
+
+                .k-icon-xs {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+        }
+    }
+}

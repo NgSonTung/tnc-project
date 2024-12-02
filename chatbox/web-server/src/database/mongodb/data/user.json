@@ -1,0 +1,47 @@
+[
+  {
+    "id": "64aff45ae43f3103da6f1b52",
+    "userName": "plan1",
+    "role": "0",
+    "email": "plan1@gmail.com",
+    "password": "pbkdf2:sha256:600000$psQiiseBU5EiN8TN$c4ece06ec8a7d3f86f80b062b979df52c888d6b9f7d978d11397e0ee3e6e3fa0",
+    "subscriptionId": "64aff45ae43f3103d2fa22e0",
+    "plugLimit": 1
+  },
+  {
+    "id": "64aff45ae43f3103da6f1b53",
+    "userName": "plan2",
+    "role": "0",
+    "email": "plan2@gmail.com",
+    "password": "pbkdf2:sha256:600000$psQiiseBU5EiN8TN$c4ece06ec8a7d3f86f80b062b979df52c888d6b9f7d978d11397e0ee3e6e3fa0",
+    "subscriptionId": "64aff45ae43f3103d2fa22e7",
+    "plugLimit": 2
+  },
+  {
+    "id": "64aff45ae43f3103da6f1b54",
+    "userName": "plan3",
+    "role": "0",
+    "email": "plan3@gmail.com",
+    "password": "pbkdf2:sha256:600000$psQiiseBU5EiN8TN$c4ece06ec8a7d3f86f80b062b979df52c888d6b9f7d978d11397e0ee3e6e3fa0",
+    "subscriptionId": "64aff45ae43f3103d2fa22e5",
+    "plugLimit": 3
+  },
+  {
+    "id": "64aff45ae43f3103da6f1b55",
+    "userName": "demo",
+    "role": "0",
+    "plugLimit": 5,
+    "subscriptionId": "64aff45ae43f3103d2fa22e5",
+    "email": "demo@gmail.com",
+    "password": "pbkdf2:sha256:600000$psQiiseBU5EiN8TN$c4ece06ec8a7d3f86f80b062b979df52c888d6b9f7d978d11397e0ee3e6e3fa0"
+  },
+  {
+    "id": "64aff45ae43f3103da6f1b56",
+    "userName": "WEBAIPILOT",
+    "role": "0",
+    "email": "admin@2gai.ai",
+    "password": "pbkdf2:sha256:600000$psQiiseBU5EiN8TN$c4ece06ec8a7d3f86f80b062b979df52c888d6b9f7d978d11397e0ee3e6e3fa0",
+    "subscriptionId": "64aff45ae43f3103d2fa22e5",
+    "plugLimit": 999
+  }
+]

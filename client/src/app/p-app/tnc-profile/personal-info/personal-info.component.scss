@@ -1,0 +1,49 @@
+::ng-deep .wrapper {
+    .user-welcom {
+        text-align: center;
+
+        .user-avt {
+            img {
+                height: 100px;
+            }
+        }
+
+        .name {
+            font-weight: 700;
+        }
+    }
+
+    .user-info-form {
+        width: 60%;
+        margin: 0 auto;
+
+        .input-wrapper {
+            
+            .k-label {
+                font-weight: 500;
+            }
+
+            .k-textbox {
+                margin: 5px 0;
+                background-color: transparent;
+                border: unset;
+                border-bottom: 1px solid black;
+
+                &.k-input-solid:focus, &.k-focus {
+                    box-shadow: unset;
+                }
+            }
+        }
+
+        .btn-submit {
+            text-align: center;
+            margin-top: 5px;
+
+            .k-button {
+                width: 100%;
+                padding: 8px 0;
+                font-weight: 600;
+            }
+        }
+    }
+}

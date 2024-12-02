@@ -1,0 +1,322 @@
+@use "../../../../../variables.scss" as v;
+$tablePadding: 1.5rem 1.5rem;
+
+.sub-table-container {
+  border-radius: 0.6rem;
+  border: v.$border;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+  height: 100%;
+  user-select: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+
+  .sub-table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $tablePadding;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 10%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: v.$border;
+  }
+
+  .sub-table-content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sub-table-content {
+    height: 90%;
+    padding: $tablePadding;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+    }
+
+    .sub-table-label {
+      color: #475467;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .sub-table-name-input {
+      .sub-table-label {
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+      .sub-table-input {
+        height: 2.4rem;
+        width: 100%;
+        border: v.$border;
+        border-radius: 0.5rem;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input {
+          height: 2.2rem;
+          width: 90%;
+          border: none;
+          font-size: 0.93rem;
+        }
+      }
+    }
+
+    .sub-table-cb {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+
+      .sub-table-cb-wrapper {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        height: 1rem;
+        aspect-ratio: 1;
+
+        .sub-table-input {
+          position: absolute;
+          cursor: pointer;
+          opacity: 0;
+          z-index: 10;
+        }
+
+        .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 1rem;
+          aspect-ratio: 1;
+          border-radius: 0.3rem;
+          border: v.$border;
+          box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        }
+
+        .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none;
+          left: 5px;
+          top: 0px;
+          width: 5px;
+          height: 10px;
+          border: solid #3538cd;
+          border-width: 0 2px 2px 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+
+        input:checked ~ .checkmark {
+          background-color: #eef4ff;
+          border: 1px solid #3538cd;
+        }
+
+        input:checked ~ .checkmark:after {
+          display: block;
+        }
+      }
+
+      .sub-table-cb-input1,
+      .sub-table-cb-input2 {
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+      }
+    }
+
+    .sub-table-radio {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+
+      .sub-table-radio-wrapper {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        height: 1rem;
+        aspect-ratio: 1;
+
+        .sub-table-input {
+          position: absolute;
+          cursor: pointer;
+          height: 1rem;
+          width: 1rem;
+          opacity: 0;
+          z-index: 10;
+          margin: 0;
+        }
+
+        .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 1rem;
+          aspect-ratio: 1;
+          border: v.$border;
+          border-radius: 50%;
+          box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        }
+
+        .checkmark:after {
+          content: "";
+          position: absolute;
+          left: 5px;
+          top: 5px;
+          display: none;
+          width: 6px;
+          aspect-ratio: 1;
+          border-radius: 100000rem;
+          background-color: #3538cd;
+        }
+
+        input:checked ~ .checkmark {
+          background-color: #eef4ff;
+          border: 1px solid #3538cd;
+          border-radius: 50%;
+        }
+
+        input:checked ~ .checkmark:after {
+          display: block;
+        }
+      }
+
+      .sub-table-radio-input1,
+      .sub-table-radio-input2 {
+        display: flex;
+        flex-direction: row;
+        gap: 0.7rem;
+        align-items: center;
+      }
+    }
+
+    .sub-table-text-input {
+      .sub-table-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 7rem;
+        width: 100%;
+        border: v.$border;
+        border-radius: 0.5rem;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        overflow: hidden;
+        margin-bottom: 0.2rem;
+
+        textarea {
+          height: 6rem;
+          width: 90%;
+          border: none;
+          font-size: 0.93rem;
+          font-family: Inter;
+          resize: none;
+          -ms-overflow-style: none; /* IE and Edge */
+          scrollbar-width: none; /* Firefox */
+        }
+
+        textarea::-webkit-scrollbar {
+          display: none;
+        }
+      }
+
+      .sub-table-label {
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    .sub-table-dropDown-input {
+      position: relative;
+
+      .sub-table-label {
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      .sub-table-input {
+        width: 100%;
+        height: 2.4rem;
+        border: v.$border;
+        border-radius: 0.5rem;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        padding-left: 0.8rem;
+        font-size: 0.93rem;
+        font-family: Inter;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-image: url("../../../../../assets/icon/chevron-down.svg") no-repeat
+          95% 50%;
+        margin-bottom: 0.2rem;
+      }
+    }
+
+    .sub-table-hint {
+      color: #475467;
+      font-size: 0.8rem;
+      font-family: Inter;
+      margin: 0;
+    }
+
+    .sub-table-submit {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .sub-table-submit-cancel,
+      .sub-table-submit-submit {
+        height: 2.3rem;
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        border-radius: 0.6rem;
+        border: v.$border;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        background-color: #ffffff;
+        cursor: pointer;
+        color: #344054;
+        font-size: 0.8rem;
+        font-weight: 600;
+        transition: 0.2s ease-in-out all;
+      }
+
+      .sub-table-submit-cancel:hover,
+      .sub-table-submit-submit:hover {
+        opacity: 0.8;
+      }
+
+      .sub-table-submit-submit {
+        background-color: #444ce7;
+        color: #ffffff;
+        font-weight: 500;
+      }
+    }
+  }
+}

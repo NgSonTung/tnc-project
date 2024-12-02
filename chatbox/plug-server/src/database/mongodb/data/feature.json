@@ -1,0 +1,27 @@
+[
+    {
+        "id": "647f3c5170e47aa35b175121",
+        "name": "crawl website",
+        "description": "Crawls website for data."
+    },
+    {
+        "id": "647f3c5170e47aa35b175122",
+        "name": "save conversation",
+        "description": "Save conversation for future reference."
+    },
+    {
+        "id": "647f3c5170e47aa35b175123",
+        "name": "upload files",
+        "description": "Upload your documents to the knowledge base."
+    },
+    {
+        "id": "647f3c5170e47aa35b175124",
+        "name": "api access",
+        "description": "Pull data from your PlugServer via External APIs."
+    },
+    {
+        "id": "647f3c5170e47aa35b175125",
+        "name": "customize client",
+        "description": "Customize your client."
+    }
+]

@@ -1,0 +1,69 @@
+@use "../../../../../variables.scss" as v;
+
+.nav-container {
+  display: flex;
+  height: 100%;
+  width: v.$nav-width;
+  padding-top: 1.5rem;
+  flex-direction: column;
+  gap: 1.4rem;
+  align-items: center;
+  border-right: v.$border;
+  background-color: #ffffff;
+
+  .nav-logo {
+    background-color: #444ce7;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .nav-item {
+    cursor: pointer;
+
+    .nav-item-img {
+      width: 1.4rem;
+      aspect-ratio: 1;
+      transition: all 0.2s;
+    }
+  }
+  .nav-item:hover > img {
+    width: 1.6rem;
+  }
+
+  .selected > img {
+    width: 1.6rem !important;
+    z-index: 2;
+  }
+
+  .selected::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: #f5f5f5;
+    animation: grow 0.2s ease-in-out forwards;
+  }
+}
+
+.nav-logo,
+.nav-item,
+.selected::before {
+  border-radius: 0.4rem;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

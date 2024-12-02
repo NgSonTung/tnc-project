@@ -1,0 +1,35 @@
+<div class="header-banner">
+  <img src="../../../../../assets/img/header_banner.png" />
+</div>
+<div class="layout-wrapper">
+  <app-p-header ></app-p-header>
+  <div class="app-body">
+    <div class="side-banner left-side">
+      <img src="../../../../assets/img/left_side_banner.webp" />
+    </div>
+    <div class="container"><router-outlet></router-outlet></div>
+    <div class="side-banner right-side">
+      <img src="../../../../assets/img/left_side_banner.webp" />
+    </div>
+  </div>
+</div>
+<div class="container">
+  <app-minimized-bar (showChat)="toggleShowChat()"></app-minimized-bar>
+  <app-chat
+    (exit)="toggleShowChat()"
+    class="chat"
+    *ngIf="showChat"
+  ></app-chat>
+</div>
+
+
+<app-footer></app-footer>
+<div *ngIf="cartPopUpState" class="cart-background">
+  <app-cart
+    class="cart-container"
+    (click)="$event.stopPropagation()"
+  ></app-cart>
+</div>
+<div *ngIf="registerShown$ | async">
+  <app-register></app-register>
+</div>

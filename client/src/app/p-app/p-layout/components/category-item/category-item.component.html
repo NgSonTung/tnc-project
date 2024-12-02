@@ -1,0 +1,13 @@
+<div class="category-item-container" (click)="navigateToUrl()">
+  <div class="category-item-desc-wrapper">
+    <p class="category-title">{{ title }}</p>
+    <p class="category-subTitle">{{ subTitle }}</p>
+  </div>
+  <div class="category-item-img-wrapper">
+    <img class="img" [src]="img" />
+  </div>
+  <div
+    [style.background-color]="color"
+    class="category-item-background-shape"
+  ></div>
+</div>

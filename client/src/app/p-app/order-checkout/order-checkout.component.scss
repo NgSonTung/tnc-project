@@ -1,0 +1,116 @@
+.order-checkout-wrapper {
+    .checkbox-box-wrapper {
+        margin-bottom: 4rem;
+
+        .checkout-box-content {
+            background-color: #f5f5f5;
+            border-radius: 15px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+            width: 80%;
+            margin: 0 auto;
+            .checkout-title {
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                margin-left: auto;  
+                margin-top: 20px;
+                padding: 0 20px;
+                text-align: right;
+                width: 60%;
+                color: #4a4a4a;
+            }
+    
+            .bg-img {
+                left: 18rem;
+                position: absolute;
+                top: 20px;
+                opacity: 1;
+                img {
+                    height: 300px;
+                }
+            }
+    
+            .bg-order-check {
+                background: linear-gradient(to bottom right, #6d30ff94 37%, #f5f5f5 70%);
+                height: 800px;
+                left: -500px;
+                opacity: .4;
+                position: absolute;
+                top: -300px;
+                transform: rotate(55deg);
+                width: 800px;
+                z-index: 0;
+            }
+    
+            .checkout-form {
+                margin-left: auto;
+                padding: 0 20px;
+                width: 40%;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+    
+                .k-textbox {
+                    height: 40px;
+                    border-radius: 4px;
+                }
+    
+                .separate-line {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    hr {
+                        width: 40%;
+                    }
+                }
+    
+                .check-btn {
+                    background-color: #005ec4;
+                    color: white;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-weight: 600;
+                    width: 180px;
+    
+                    &:hover {
+                        color: #005ec4;
+                        background-color: white;
+                        border: 1px solid #005ec4;
+                    }
+                    
+                    &:hover > k-button-text {
+                        transform: translateX(-20px);
+                    }
+                }
+    
+                .login-btn {
+                    background-color: #005ec4;
+                    color: white;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-weight: 600;
+                    min-width: 320px;
+                    padding: 8px 20px;
+    
+                    &:hover {
+                        color: #005ec4;
+                        background-color: white;
+                        border: 1px solid #005ec4;
+                    }
+                    
+                    &:hover > k-button-text {
+                        transform: translateX(-20px);
+                    }
+                }
+    
+            }
+        }
+    }
+
+}
+

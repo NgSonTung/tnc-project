@@ -1,0 +1,532 @@
+[
+  {
+    "UserID": -1,
+    "UserName": "master",
+    "Password": "1",
+    "AuthID": 1,
+    "Email": "SYSTEM@example.com",
+    "Point": 0,
+    "Address": "NULL",
+    "Phone": "NULL"
+  },
+  {
+    "UserID": 1,
+    "UserName": "admin",
+    "Password": "123",
+    "AuthID": 2,
+    "Email": "admin@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 2,
+    "UserName": "user",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "user@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 3,
+    "UserName": "ayjqsxis",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ayjqsxis@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 4,
+    "UserName": "vjugkvpq",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "vjugkvpq@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 5,
+    "UserName": "ighjgtca",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ighjgtca@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 6,
+    "UserName": "epuodfaj",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "epuodfaj@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 7,
+    "UserName": "lsvafkaj",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "lsvafkaj@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 8,
+    "UserName": "uufeqkha",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "uufeqkha@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 9,
+    "UserName": "abqehnqe",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "abqehnqe@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 10,
+    "UserName": "gjuprlea",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "gjuprlea@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 11,
+    "UserName": "fpplwecz",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "fpplwecz@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 12,
+    "UserName": "iulvkxxo",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "iulvkxxo@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 13,
+    "UserName": "ukuvyfzf",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ukuvyfzf@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 14,
+    "UserName": "ejtkqkuf",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ejtkqkuf@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 15,
+    "UserName": "anhbfgzs",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "anhbfgzs@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 16,
+    "UserName": "lfrahrug",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "lfrahrug@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 17,
+    "UserName": "ujwmziyi",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ujwmziyi@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 18,
+    "UserName": "efakgdqr",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "efakgdqr@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 19,
+    "UserName": "hvwmpdit",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "hvwmpdit@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 20,
+    "UserName": "gzttccty",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "gzttccty@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 21,
+    "UserName": "nslyezjh",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "nslyezjh@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 22,
+    "UserName": "rexokfyb",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "rexokfyb@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 23,
+    "UserName": "xevvvuvv",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "xevvvuvv@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 24,
+    "UserName": "vraizkrb",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "vraizkrb@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 25,
+    "UserName": "ekghhtwf",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ekghhtwf@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 26,
+    "UserName": "thcwpvlg",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "thcwpvlg@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 27,
+    "UserName": "ymevvrdl",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ymevvrdl@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 28,
+    "UserName": "gqmtufqi",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "gqmtufqi@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 29,
+    "UserName": "gakizbai",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "gakizbai@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 30,
+    "UserName": "lurducho",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "lurducho@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 31,
+    "UserName": "dnsydlti",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "dnsydlti@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 32,
+    "UserName": "cvbwbeum",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "cvbwbeum@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 33,
+    "UserName": "ibotpahp",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ibotpahp@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 34,
+    "UserName": "mankyhpw",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "mankyhpw@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 35,
+    "UserName": "whfexgoy",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "whfexgoy@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 36,
+    "UserName": "mfdkqqdr",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "mfdkqqdr@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 37,
+    "UserName": "yhodumzj",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "yhodumzj@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 38,
+    "UserName": "njnjjlpl",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "njnjjlpl@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 39,
+    "UserName": "jfiqrqty",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "jfiqrqty@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 40,
+    "UserName": "ndszbied",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ndszbied@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 41,
+    "UserName": "vbfxnfvk",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "vbfxnfvk@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 42,
+    "UserName": "cjtvxnms",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "cjtvxnms@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 43,
+    "UserName": "wfhahmcs",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "wfhahmcs@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 44,
+    "UserName": "kyihsptc",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "kyihsptc@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 45,
+    "UserName": "zbbcktnb",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "zbbcktnb@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 46,
+    "UserName": "esnzblxc",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "esnzblxc@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 47,
+    "UserName": "wtvbqldo",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "wtvbqldo@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 48,
+    "UserName": "xqeuxhzy",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "xqeuxhzy@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 49,
+    "UserName": "ipqqztgx",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ipqqztgx@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 50,
+    "UserName": "jyenzzlo",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "jyenzzlo@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 51,
+    "UserName": "ltukfgsj",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "ltukfgsj@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  },
+  {
+    "UserID": 52,
+    "UserName": "geygcpgm",
+    "Password": "123",
+    "AuthID": 3,
+    "Email": "geygcpgm@example.com",
+    "Point": 0,
+    "Address": "avxxxxxxxxxxxxxxxxx",
+    "Phone": "0000000000"
+  }
+]

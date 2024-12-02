@@ -1,0 +1,28 @@
+<div
+  #draggableDiv
+  (mousedown)="onMouseDown($event)"
+  (document:mousemove)="onMouseMove($event)"
+  (document:mouseup)="onMouseUp($event)"
+  class="minimized-bar-container"
+>
+  <div
+    (click)="toggleActive()"
+    [ngClass]="{ bar_item_active: active }"
+    class="minimized-bar-item button"
+  >
+    <img src="assets/power-off-solid.svg" />
+  </div>
+  <div
+    (click)="onShowChat()"
+    [ngClass]="{ bar_item_active: active }"
+    class="minimized-bar-item button"
+  >
+    <img src="assets/lightbulb-regular.svg" />
+  </div>
+  <div
+    [ngClass]="{ bar_item_active: active }"
+    class="minimized-bar-item button"
+  >
+    <img src="assets/1-solid.svg" />
+  </div>
+</div>

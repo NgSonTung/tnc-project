@@ -1,0 +1,139 @@
+@use "../../../../variables.scss" as v;
+
+.dashboard-content-container {
+  height: 100%;
+  width: 100%;
+
+  .dashboard-content-main-table {
+    width: 77%;
+  }
+
+  .dashboard-content-sub-table {
+    width: 21.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-main-container {
+    padding: 0 2% !important;
+    position: relative;
+  }
+
+  .dashboard-navbar {
+    z-index: 1000;
+  }
+
+  .dashboard-navbar-hidden {
+    animation: slideOut 0.2s ease-in-out forwards !important;
+  }
+
+  .dashboard-navbar-background {
+    z-index: 100;
+    width: 100%;
+    background-color: #00000051;
+    height: 100%;
+    position: absolute;
+  }
+
+  .dashboard-navbar-background-hidden {
+    z-index: 100;
+    width: 3rem;
+    background-color: #00000051 !important;
+    top: 0;
+    bottom: 0;
+    left: -1.5rem;
+    margin: auto;
+    height: 10%;
+    border-top-right-radius: 100rem;
+    border-bottom-right-radius: 100rem;
+    background: url("../../../../assets/icon/arrow-right.svg") 65% 50% no-repeat;
+  }
+
+  .dashboard-main-container {
+    margin-left: 0 !important;
+  }
+
+  .dashboard-content-main-table {
+    width: 100% !important;
+  }
+
+  .dashboard-content-sub-table {
+    z-index: 10;
+    position: absolute;
+    width: 100% !important;
+    height: 75%;
+    left: 0;
+    bottom: 0;
+    animation: slideIn2 0.2s ease-in-out forwards !important;
+  }
+
+  .dashboard-content-sub-table-hidden {
+    animation: slideOut2 0.2s ease-in-out forwards !important;
+  }
+
+  .dashboard-content-sub-table-background {
+    z-index: 9;
+    width: 100%;
+    background-color: #00000051;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .dashboard-content-sub-table-background-hidden {
+    z-index: 9;
+    width: 3rem;
+    background-color: #00000051 !important;
+    top: 0;
+    bottom: 0;
+    left: -1.5rem;
+    margin: auto;
+    height: 10%;
+    border-top-right-radius: 100rem;
+    border-bottom-right-radius: 100rem;
+    background: url("../../../../assets/icon/arrow-right.svg") 65% 50% no-repeat;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+    display: none;
+  }
+}
+
+@keyframes slideIn2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideOut2 {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(100%);
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+::ng-deep {
+    .slick-slider {
+        width: 100%;
+        margin: auto;
+        background: #ffffff;
+    }
+
+    // .slick-slide {
+    //     width: 384px !important;
+    // }
+
+    .slick-prev,
+    .slick-next {
+        height: 4.5rem;
+        width: 4.5rem;
+        background: #68686882 !important;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slick-prev {
+        left: 0;
+    }
+
+    .slick-next {
+        right: 0;
+    }
+
+    .slick-prev:before {
+        content: "ᐊ";
+        font-size: 30px;
+    }
+
+    .slick-next:before {
+        content: "ᐅ";
+        font-size: 30px;
+    }
+}

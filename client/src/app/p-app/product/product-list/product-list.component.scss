@@ -1,0 +1,134 @@
+
+.wrapper{
+  display: flex;
+}
+.wrapper-filter{
+  width: 22%;
+}
+.title-filter{
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.wrapper-product-list{
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+}
+.box-products{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0.7rem;
+
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.title-sort{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 40px;
+}
+.box-label-filter{
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  background-color: #F0F3FC;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item-label-filter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.7rem 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  min-width: 100px;
+  background-color: #fff;
+  border: 1px solid #929292;
+  img{
+    object-fit: cover;
+    height: 11px;
+    width: 11px;
+    margin-left: 0.7rem;
+    cursor: pointer;
+  }
+}
+.wrapper-pagination{
+  display: flex;
+  justify-content: flex-end;
+  margin: 2.5rem 1rem;
+}
+.test{
+  max-width: 33.3333%;
+}
+.orderby, .title-filter-total{
+  display: flex;
+  align-items: center;
+  span{
+    font-weight: 700;
+  }
+}
+.dropdown-order-by{
+  width: 200px;
+  border: none;
+  height: 40px;
+  margin-left: 1rem;
+  background-color: rgb(240,243,252);
+  border-radius: 0;
+}
+.title-sort{
+margin: 0 0.5rem 0 0.7rem;
+
+}
+.title-filter-total{
+  display: flex;
+}
+.title-filter-total  :nth-child(1){
+  margin-right:5rem ;
+  font-size: 2rem;
+}
+.title-filter-total  :nth-child(2){
+font-weight: normal;
+}
+
+
+//loading
+.loading-indicator{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading-container {
+  text-align: center;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

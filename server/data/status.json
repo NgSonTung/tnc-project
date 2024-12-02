@@ -1,0 +1,62 @@
+[
+    {
+        "StatusID": 1,
+        "StatusName": "chờ xác nhận",
+        "TypeStatus": 2,
+        "Mark": "đơn hàng"
+    },
+    {
+        "StatusID": 2,
+        "StatusName": "đang vận chuyển",
+        "TypeStatus": 2,
+        "Mark": "đơn hàng"
+    },
+    {
+        "StatusID": 3,
+        "StatusName": "hoàn tất",
+        "TypeStatus": 2,
+        "Mark": "đơn hàng"
+    },
+    {
+        "StatusID": 4,
+        "StatusName": "đổi trả",
+        "TypeStatus": 2,
+        "Mark": "đơn hàng"
+    },
+    {
+        "StatusID": 5,
+        "StatusName": "đã hủy",
+        "TypeStatus": 2,
+        "Mark": "đơn hàng"
+    },
+    {
+        "StatusID": 6,
+        "StatusName": "đang soạn thảo",
+        "TypeStatus": 1,
+        "Mark": "sản phẩm"
+    },
+    {
+        "StatusID": 7,
+        "StatusName": "đã duyệt",
+        "TypeStatus": 1,
+        "Mark": "sản phẩm"
+    },
+    {
+        "StatusID": 8,
+        "StatusName": "ngưng hiển thị",
+        "TypeStatus": 1,
+        "Mark": "sản phẩm"
+    },
+    {
+        "StatusID": 9,
+        "StatusName": "trả về",
+        "TypeStatus": 1,
+        "Mark": "sản phẩm"
+    },
+    {
+        "StatusID": 10,
+        "StatusName": "ngừng kinh doanh",
+        "TypeStatus": 1,
+        "Mark": "sản phẩm"
+    }
+]

@@ -1,0 +1,27 @@
+<div class="login-wrapper">
+    <img src="assets/img/tnc-logo.svg">
+    <div class="title">
+        <p class="main-text">Login in to your account</p>
+        <p class="sub-text">Welcome back! Please enter your details.</p>
+        <form class="login-form" [formGroup]="signUpForm">
+            <div class="input-wrapper">
+                <label>Tài khoản</label>
+                <input type="text" placeholder="Nhập tài khoản..." formControlName="UserName">
+            </div>
+            <div class="input-wrapper">
+                <label>Mật khẩu</label>
+                <input type="password" formControlName="Password" placeholder="Nhập mật khẩu...">
+            </div>
+            <div class="footer">
+                <button class="login-btn" type="submit" (click)="onSignUp()">Đăng nhập</button>
+        
+                <div class="policy-wrapper">
+                    <p>Terms of Service</p>
+                    <p>Privacy Statement</p>
+                </div>
+            </div>
+        </form>
+    
+    </div>
+
+</div>

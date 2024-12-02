@@ -1,0 +1,55 @@
+<div class="wrapper">
+  <div class="user-welcom">
+    <div class="user-avt">
+      <img src="assets/img/avt_profile.webp" />
+    </div>
+    <p class="name">{{ userInfo.FullName }}</p>
+  </div>
+
+  <form class="user-info-form" [formGroup]="personalForm">
+    <kendo-formfield>
+      <kendo-label class="input-wrapper" [for]="UserName" text="Tên tài khoản">
+        <kendo-textbox formControlName="UserName" #UserName></kendo-textbox>
+      </kendo-label>
+    </kendo-formfield>
+
+    <kendo-formfield>
+      <kendo-label class="input-wrapper" [for]="FullName" text="Họ và tên">
+        <kendo-textbox formControlName="FullName" #FullName></kendo-textbox>
+      </kendo-label>
+    </kendo-formfield>
+
+    <kendo-formfield showHints="initial" showErrors="initial">
+      <kendo-label class="input-wrapper" text="Email" [for]="email">
+        <kendo-textbox formControlName="Email" #email></kendo-textbox>
+      </kendo-label>
+      <kendo-formerror>Error: Not valid email format</kendo-formerror>
+    </kendo-formfield>
+
+    <kendo-formfield>
+      <kendo-label class="input-wrapper" text="Số điện thoại" [for]="phone">
+        <kendo-textbox formControlName="Phone" #phone></kendo-textbox>
+      </kendo-label>
+    </kendo-formfield>
+
+    <kendo-formfield>
+      <kendo-label class="input-wrapper" text="Địa chỉ" [for]="address">
+        <kendo-textbox formControlName="Address" #address></kendo-textbox>
+      </kendo-label>
+    </kendo-formfield>
+
+    <kendo-formfield>
+      <kendo-label class="input-wrapper" text="Tổng tiền đã mua sắm">
+        <kendo-textbox
+          formControlName="TotalPrice"
+          [readonly]="true"
+        ></kendo-textbox>
+      </kendo-label>
+    </kendo-formfield>
+    <div class="btn-submit">
+      <button (click)="updateUserInfo()" kendoButton [themeColor]="'info'">
+        Cập nhật thông tin
+      </button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,54 @@
+<div class="wrapper">
+  <div (click)="clickBoxFilter()" class="title-filter">
+    <span> {{ titleFilter }}</span>
+    <img
+      src="../../../../../assets/icon/right-arrow.png"
+      alt=""
+      [ngClass]="{ 'move-icon': active }"
+    />
+  </div>
+  <div
+    *ngIf="!filterbyPrice; else priceFilter"
+    [ngClass]="{ 'dropdown-list': true, 'active-dropdown-list': active }"
+    #myDropdownList
+  >
+    <div [ngClass]="{ 'search-box': true, disableSearch: !activeSearch }">
+      <input type="text" [placeholder]="placeholderSearch" />
+      <img src="../../../../../assets/icon/icons8-search-500.png" alt="" />
+    </div>
+    <div
+      *ngFor="let item of data.dataItems; index as indexOfelement"
+      class="dropdown-item"
+    >
+      <input
+        [id]="item.field + indexOfelement"
+        [type]="item.type"
+        [value]="item.inputValue"
+        [name]="item.field"
+        [checked]="checkedItems.includes(item.labelName)"
+        (change)="handleCheck($event, item)"
+      />
+      <label [for]="item.field + indexOfelement">{{ item.labelName }}</label>
+    </div>
+  </div>
+</div>
+
+<ng-template #priceFilter>
+  <div
+    [ngClass]="{ 'dropdown-list': true, 'active-dropdown-list': active }"
+    #myDropdownList
+  >
+    <div class="pre-selected"></div>
+    <div class="price-option">
+      <span>Nhập giá dưới đây</span>
+      <div class="box-price">
+        <input type="number" [(ngModel)]="filterPriceStart" />
+        <span></span>
+        <input type="number" [(ngModel)]="filterPriceEnd" />
+      </div>
+    </div>
+    <div class="apply">
+      <button (click)="handleFilterPrice()">Áp dụng</button>
+    </div>
+  </div>
+</ng-template>

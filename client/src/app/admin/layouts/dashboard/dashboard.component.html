@@ -1,0 +1,17 @@
+<div class="dashboard-content-container">
+  <app-main-table
+    (toggleSubTable)="toggleSubTable()"
+    class="dashboard-content-main-table"
+  />
+  <div
+    class="dashboard-content-sub-table-background"
+    [ngClass]="{
+      'dashboard-content-sub-table-background-hidden': !subTableShown
+    }"
+    (click)="toggleSubTable()"
+  ></div>
+  <!-- <app-sub-table
+    [ngClass]="{ 'dashboard-content-sub-table-hidden': !subTableShown }"
+    class="dashboard-content-sub-table"
+  /> -->
+</div>

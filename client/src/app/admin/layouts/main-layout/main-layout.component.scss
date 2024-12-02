@@ -1,0 +1,38 @@
+@use "../../../../variables.scss" as v;
+
+.layout-container {
+  display: flex;
+  width: 100%;
+  // height: 100vh;
+  user-select: none;
+
+  .layout-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    animation: slideIn 0.2s ease-in-out forwards;
+  }
+
+  .dashboard-main-container {
+    overflow: hidden;
+    margin-left: v.$nav-width;
+    width: 100%;
+    height: 100%;
+    padding: 0 2.2rem;
+    display: flex;
+    flex-direction: column;
+
+    .layout-header {
+      display: block;
+      height: 10%;
+    }
+
+    .layout-body-container {
+      height: 100%;
+      width: 100%;
+      padding-bottom: 30px;
+      overflow: hidden;
+    }
+  }
+}

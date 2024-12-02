@@ -1,0 +1,1477 @@
+[
+  {
+    "FeatureID": 1,
+    "Feature": "Vẻ ngoài trẻ trung đầy cá tính",
+    "ProductID": 1
+  },
+  {
+    "FeatureID": 2,
+    "Feature": "Bắt lại khoảnh khắc một cách nhanh chóng",
+    "ProductID": 1
+  },
+  {
+    "FeatureID": 3,
+    "Feature": "Xử lý mượt mà mọi tác vụ cơ bản",
+    "ProductID": 1
+  },
+  {
+    "FeatureID": 4,
+    "Feature": "Thời lượng sử dụng lâu dài ",
+    "ProductID": 1
+  },
+  {
+    "FeatureID": 5,
+    "Feature": "Thiết kế siêu mỏng nhẹ, dịch chuyển dễ dàng",
+    "ProductID": 2
+  },
+  {
+    "FeatureID": 6,
+    "Feature": "Cấu hình sử dụng học tập, lướt web mượt mà ",
+    "ProductID": 2
+  },
+  {
+    "FeatureID": 7,
+    "Feature": "Màn hình 14 inch chống chói tối ưu",
+    "ProductID": 2
+  },
+  {
+    "FeatureID": 8,
+    "Feature": "Router 3 băng tần với chuẩn Wifi thế hệ thứ 6 802.11ax cho độ tương thích cao, tốc độ đường truyền siêu nhanh, ổn định",
+    "ProductID": 3
+  },
+  {
+    "FeatureID": 9,
+    "Feature": "Vùng phủ sóng rộng hơn với công nghệ OFDMA cùng 8 ăng-ten 5 dBi",
+    "ProductID": 3
+  },
+  {
+    "FeatureID": 10,
+    "Feature": "Kết nối đồng thời với nhiều thiết bị nhờ hỗ trợ 2 cổng USB 3.1, 4 cổng LAN và 1 cổng WAN Gigabit",
+    "ProductID": 3
+  },
+  {
+    "FeatureID": 11,
+    "Feature": "Lựa chọn tần số động (DFS) tối ưu hóa tốc độ chiến game",
+    "ProductID": 3
+  },
+  {
+    "FeatureID": 12,
+    "Feature": "Router Wifi Chuẩn AC1200 Xiaomi 4A Trắng được thiết kế nhỏ gọn, màu trắng đẹp mắt",
+    "ProductID": 4
+  },
+  {
+    "FeatureID": 13,
+    "Feature": "Tốc độ WiFi tối đa 1167Mbps trên băng tần kép",
+    "ProductID": 4
+  },
+  {
+    "FeatureID": 14,
+    "Feature": "Trải nghiệm truy cập mạng tốt hơn nhờ trang bị 4 ăng ten rời đa hướng",
+    "ProductID": 4
+  },
+  {
+    "FeatureID": 15,
+    "Feature": "Trải nghiệm mượt mà trên mọi tác vụ",
+    "ProductID": 5
+  },
+  {
+    "FeatureID": 16,
+    "Feature": "Cùng bạn ghi lại mọi khoảnh khắc",
+    "ProductID": 5
+  },
+  {
+    "FeatureID": 17,
+    "Feature": "Vẻ ngoài trẻ trung, màn hình kích thước lớn",
+    "ProductID": 5
+  },
+  {
+    "FeatureID": 18,
+    "Feature": "Chip Apple M1 tốc độ xử lý nhanh gấp 3.5 lần thế hệ trước",
+    "ProductID": 6
+  },
+  {
+    "FeatureID": 19,
+    "Feature": "Thiết kế sang trọng, tinh tế",
+    "ProductID": 6
+  },
+  {
+    "FeatureID": 20,
+    "Feature": "Màu sắc chân thực, hình ảnh sắc nét ",
+    "ProductID": 6
+  },
+  {
+    "FeatureID": 21,
+    "Feature": "Sở hữu hiệu năng khoẻ",
+    "ProductID": 7
+  },
+  {
+    "FeatureID": 22,
+    "Feature": "Thiết kế mạnh mẽ",
+    "ProductID": 7
+  },
+  {
+    "FeatureID": 23,
+    "Feature": "Linksys E7350AH cung cấp đường truyền tốc độ cao đến 1800 Mbps với băng tần kép chuẩn Wifi 802.11ax",
+    "ProductID": 8
+  },
+  {
+    "FeatureID": 24,
+    "Feature": "Tạo vùng phủ sóng rộng 140 m2 nhờ 2 ăng ten ngầm, tập trung tín hiệu tốt với công nghệ Beamforming",
+    "ProductID": 8
+  },
+  {
+    "FeatureID": 25,
+    "Feature": "Truy cập hệ thống mạng đồng thời tới 20 user nhờ công nghệ MU-MIMO",
+    "ProductID": 8
+  },
+  {
+    "FeatureID": 26,
+    "Feature": "Router Wifi Mesh 3 Pack AX3000 TP-Link Deco X60 Trắng được trang bị công nghệ Wi-Fi 6",
+    "ProductID": 9
+  },
+  {
+    "FeatureID": 27,
+    "Feature": "Wi-Fi Mesh của Deco được thiết kế để mang lại sự gia tăng đáng kể về vùng phủ sóng, tốc độ và tổng dung lượng.",
+    "ProductID": 9
+  },
+  {
+    "FeatureID": 28,
+    "Feature": "Kiểu dáng nhỏ gọn, hiện đại",
+    "ProductID": 10
+  },
+  {
+    "FeatureID": 29,
+    "Feature": "Router hỗ trợ 2 băng tần, đường truyền tốc độ cao",
+    "ProductID": 10
+  },
+  {
+    "FeatureID": 30,
+    "Feature": "Bộ phát sóng có nhiều tính năng thông minh",
+    "ProductID": 10
+  },
+  {
+    "FeatureID": 31,
+    "Feature": "Thiết bị có 4 anten cho tín hiệu WiFi mạnh",
+    "ProductID": 10
+  },
+  {
+    "FeatureID": 32,
+    "Feature": "Tai nghe True Wireless sành điệu, màu đen cá tính",
+    "ProductID": 11
+  },
+  {
+    "FeatureID": 33,
+    "Feature": "Tái tạo chất âm sôi động, mạnh mẽ cho bạn hoàn toàn hòa mình vào thế giới âm nhạc bùng nổ",
+    "ProductID": 11
+  },
+  {
+    "FeatureID": 34,
+    "Feature": "Trang bị 3 cặp đệm tai khác kích cỡ, đeo vừa vặn nhiều khổ tai, chất liệu mềm mại, tiếp xúc vùng tai dễ chịu ",
+    "ProductID": 11
+  },
+  {
+    "FeatureID": 35,
+    "Feature": "Trải nghiệm liên tục trong thời gian đến 5 giờ sau khi sạc đầy trong 2 giờ",
+    "ProductID": 11
+  },
+  {
+    "FeatureID": 36,
+    "Feature": "Thiết kế nhỏ gọn, sang trọng",
+    "ProductID": 12
+  },
+  {
+    "FeatureID": 37,
+    "Feature": "Quan sát toàn diện nhờ góc quay bao quát tốt",
+    "ProductID": 12
+  },
+  {
+    "FeatureID": 38,
+    "Feature": "Chất lượng dữ liệu quan sát cực tốt với chuẩn phân giải đến 2K (2304 x 1296)",
+    "ProductID": 12
+  },
+  {
+    "FeatureID": 39,
+    "Feature": "Phát cảnh báo an toàn đến điện thoại với công nghệ Deep Learning",
+    "ProductID": 12
+  },
+  {
+    "FeatureID": 40,
+    "Feature": "Sử dụng lưu trữ qua thẻ nhớ MicroSD dung lượng tối đa 32 GB",
+    "ProductID": 12
+  },
+  {
+    "FeatureID": 41,
+    "Feature": "Thiết lập điều khiển qua ứng dụng MiHome",
+    "ProductID": 12
+  },
+  {
+    "FeatureID": 42,
+    "Feature": "Thiết kế thời thượng cùng bảng màu cá tính",
+    "ProductID": 13
+  },
+  {
+    "FeatureID": 43,
+    "Feature": "Màn hình OLED sắc nét, độ phân giải cao",
+    "ProductID": 13
+  },
+  {
+    "FeatureID": 44,
+    "Feature": "Hiệu suất vượt trội, hệ điều hành tối ưu",
+    "ProductID": 13
+  },
+  {
+    "FeatureID": 45,
+    "Feature": "Bạn đồng hành an toàn trên mọi chuyến đi",
+    "ProductID": 13
+  },
+  {
+    "FeatureID": 46,
+    "Feature": "Chăm sóc và cải thiện sức khỏe ngay trên cổ tay",
+    "ProductID": 13
+  },
+  {
+    "FeatureID": 47,
+    "Feature": "Viên pin đủ dùng, hỗ trợ chế độ tiết kiệm năng lượng",
+    "ProductID": 13
+  },
+  {
+    "FeatureID": 48,
+    "Feature": "Nghe gọi trực tiếp trên đồng hồ với eSIM tiện lợi",
+    "ProductID": 13
+  },
+  {
+    "FeatureID": 49,
+    "Feature": "Rất nhiều tính năng hấp dẫn khác",
+    "ProductID": 13
+  },
+  {
+    "FeatureID": 50,
+    "Feature": "Kiểu dáng gọn nhẹ, năng động",
+    "ProductID": 14
+  },
+  {
+    "FeatureID": 51,
+    "Feature": "Thiết kế màn hình tràn viền - trải nghiệm thú vị hơn",
+    "ProductID": 14
+  },
+  {
+    "FeatureID": 52,
+    "Feature": "Thay đổi giao diện tùy thích",
+    "ProductID": 14
+  },
+  {
+    "FeatureID": 53,
+    "Feature": "Kết nối nhanh chóng qua cổng bluetooth",
+    "ProductID": 14
+  },
+  {
+    "FeatureID": 54,
+    "Feature": "Thời gian sử dụng lên đến 15 ngày",
+    "ProductID": 14
+  },
+  {
+    "FeatureID": 55,
+    "Feature": "Theo dõi sức khoẻ toàn diện",
+    "ProductID": 14
+  },
+  {
+    "FeatureID": 56,
+    "Feature": "Theo dõi các chỉ số về sức khỏe tốt hơn",
+    "ProductID": 14
+  },
+  {
+    "FeatureID": 57,
+    "Feature": "Diện mạo trẻ trung và năng động",
+    "ProductID": 15
+  },
+  {
+    "FeatureID": 58,
+    "Feature": "Chụp ảnh sắc nét với camera 48 MP",
+    "ProductID": 15
+  },
+  {
+    "FeatureID": 59,
+    "Feature": "Hiệu năng ổn định đến từ con chip Exynos",
+    "ProductID": 15
+  },
+  {
+    "FeatureID": 60,
+    "Feature": "Xem phim, chơi game tốt hơn với màn hình Super AMOLED",
+    "ProductID": 15
+  },
+  {
+    "FeatureID": 61,
+    "Feature": "Nâng cấp mạnh mẽ về camera",
+    "ProductID": 16
+  },
+  {
+    "FeatureID": 62,
+    "Feature": "Hiệu năng mạnh mẽ hàng đầu thế giới",
+    "ProductID": 16
+  },
+  {
+    "FeatureID": 63,
+    "Feature": "Những thay đổi về thiết kế theo hướng tích cực",
+    "ProductID": 16
+  },
+  {
+    "FeatureID": 64,
+    "Feature": "Thời lượng pin tốt nhất từ trước tới nay",
+    "ProductID": 16
+  },
+  {
+    "FeatureID": 65,
+    "Feature": "Bàn phím có dây Gaming Asus TUF K1 với thiết kế có phần kê cổ tay tiện dụng",
+    "ProductID": 17
+  },
+  {
+    "FeatureID": 66,
+    "Feature": "có thể tháo rời để mang lại sự thoải mái dài lâu.",
+    "ProductID": 17
+  },
+  {
+    "FeatureID": 67,
+    "Feature": "Thiết kế bàn phím cơ kiểu rút gọn - Tenkeyless đậm chất gaming",
+    "ProductID": 18
+  },
+  {
+    "FeatureID": 68,
+    "Feature": "Bàn phím Rapoo với 104 phím thông dụng, phím bấm nhạy bén, tuổi thọ cao",
+    "ProductID": 18
+  },
+  {
+    "FeatureID": 69,
+    "Feature": "Bàn phím Rapoo kiểu Tenkeyless với 87 phím cơ bản độ nhạy cao, bền bỉ",
+    "ProductID": 19
+  },
+  {
+    "FeatureID": 70,
+    "Feature": "Thiết kế trẻ trung, phong cách ấn tượng chuẩn gaming",
+    "ProductID": 19
+  },
+  {
+    "FeatureID": 71,
+    "Feature": "Kết nối với PC, laptop qua dây nối 1.5 m đầu cáp USB",
+    "ProductID": 19
+  },
+  {
+    "FeatureID": 72,
+    "Feature": "Thiết kế hiện đại, bắt mắt",
+    "ProductID": 20
+  },
+  {
+    "FeatureID": 73,
+    "Feature": "Màn hình giọt nước tràn viền thời trang",
+    "ProductID": 20
+  },
+  {
+    "FeatureID": 74,
+    "Feature": "Hiệu năng ổn định, thực hiện đa nhiệm mượt mà",
+    "ProductID": 20
+  },
+  {
+    "FeatureID": 75,
+    "Feature": "Bộ ba camera “xịn sò” cho ra những bức ảnh tuyệt đẹp",
+    "ProductID": 20
+  },
+  {
+    "FeatureID": 76,
+    "Feature": "Pin khủng cho thời gian hoạt động cả ngày",
+    "ProductID": 20
+  },
+  {
+    "FeatureID": 77,
+    "Feature": "Diện mạo ấn tượng, mang đậm chất thể thao",
+    "ProductID": 21
+  },
+  {
+    "FeatureID": 78,
+    "Feature": "Chinh phục mọi tác vụ, chiến game mượt mà nhờ hiệu năng mạnh mẽ",
+    "ProductID": 21
+  },
+  {
+    "FeatureID": 79,
+    "Feature": "Vẻ ngoài thời thượng, đậm tính thời trang",
+    "ProductID": 22
+  },
+  {
+    "FeatureID": 80,
+    "Feature": "Vận hành mượt mà đa tác vụ",
+    "ProductID": 22
+  },
+  {
+    "FeatureID": 81,
+    "Feature": "Trải nghiệm phút giây thư giãn bất tận",
+    "ProductID": 22
+  },
+  {
+    "FeatureID": 82,
+    "Feature": "Chạy mượt mà các ứng dụng văn phòng trên Word, Excel, PowerPoint,... ",
+    "ProductID": 23
+  },
+  {
+    "FeatureID": 83,
+    "Feature": "Laptop Asus đa nhiệm mượt mà trên nhiều cửa sổ Chrome cùng lúc",
+    "ProductID": 23
+  },
+  {
+    "FeatureID": 84,
+    "Feature": "Laptop có kích thước màn hình 15.6 inch cùng tần số quét 144 Hz",
+    "ProductID": 23
+  },
+  {
+    "FeatureID": 85,
+    "Feature": "Laptop Asus TUF Gaming được bao bọc bởi lớp vỏ nhựa màu đen huyền bí",
+    "ProductID": 23
+  },
+  {
+    "FeatureID": 86,
+    "Feature": "Kiểu dáng hiện đại, thời thượng",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 87,
+    "Feature": "Hệ điều hành WatchOS 8 với những cải tiến nổi bật",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 88,
+    "Feature": "Màn hình OLED luôn luôn hiển thị",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 89,
+    "Feature": "Sử dụng lên đến 1.5 ngày cho một lần sạc",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 90,
+    "Feature": "Dễ dàng kết nối với điện thoại qua Bluetooth",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 91,
+    "Feature": "Bổ sung thêm mặt đồng hồ vào lựa chọn của bạn",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 92,
+    "Feature": "Theo dõi sức khỏe mọi lúc mọi nơi",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 93,
+    "Feature": "Đo nồng độ oxy trong máu và điện tâm đồ",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 94,
+    "Feature": "Chế độ tập luyện đa dạng đang chờ bạn khám phá",
+    "ProductID": 24
+  },
+  {
+    "FeatureID": 95,
+    "Feature": "Tạo hình cao cấp sang trọng",
+    "ProductID": 25
+  },
+  {
+    "FeatureID": 96,
+    "Feature": "Nâng tầm chụp ảnh với bộ ống kính siêu độ phân giải",
+    "ProductID": 25
+  },
+  {
+    "FeatureID": 97,
+    "Feature": "Hiệu năng siêu khủng, chiến game cực sung ",
+    "ProductID": 25
+  },
+  {
+    "FeatureID": 98,
+    "Feature": "Nâng cao chất lượng nghe nhìn trên điện thoại",
+    "ProductID": 25
+  },
+  {
+    "FeatureID": 99,
+    "Feature": "Thiết kế mỏng nhẹ",
+    "ProductID": 26
+  },
+  {
+    "FeatureID": 100,
+    "Feature": "Hiệu năng mạnh mẽ đến từ CPU Intel thế hệ thứ 11",
+    "ProductID": 26
+  },
+  {
+    "FeatureID": 101,
+    "Feature": "Thiết kế tai nghe AirPods Pro 2 gọn nhẹ, kiểu dáng hiện đại",
+    "ProductID": 27
+  },
+  {
+    "FeatureID": 102,
+    "Feature": "Chất âm sống động, khả năng tái tạo âm thanh 3 chiều vượt trội",
+    "ProductID": 27
+  },
+  {
+    "FeatureID": 103,
+    "Feature": "Tích hợp micro cho khả năng thu âm ấn tượng",
+    "ProductID": 27
+  },
+  {
+    "FeatureID": 104,
+    "Feature": "Dễ dàng kết nối với chuẩn Bluetooth 5.3",
+    "ProductID": 27
+  },
+  {
+    "FeatureID": 105,
+    "Feature": "Chống ồn chủ động (ANC) hiệu quả gấp hai lần phiên bản tiền nhiệm",
+    "ProductID": 27
+  },
+  {
+    "FeatureID": 106,
+    "Feature": "Chuẩn chống nước chuẩn IPX4",
+    "ProductID": 27
+  },
+  {
+    "FeatureID": 107,
+    "Feature": "Điều khiển cảm ứng mượt mà, nhanh chóng",
+    "ProductID": 27
+  },
+  {
+    "FeatureID": 108,
+    "Feature": "Sử dụng thoải mái nhờ dung lượng pin lớn và sạc không dây nhanh chóng",
+    "ProductID": 27
+  },
+  {
+    "FeatureID": 109,
+    "Feature": "AVA+ JP208 sạc lại nhiều lần cho các thiết bị di động với dung lượng 10.000 mAh, hiệu suất sạc 64%",
+    "ProductID": 28
+  },
+  {
+    "FeatureID": 110,
+    "Feature": "Sạc dự phòng AVA+ sạc được cùng lúc cho 2 thiết bị nhờ 2 cổng USB 5V – 2A",
+    "ProductID": 28
+  },
+  {
+    "FeatureID": 111,
+    "Feature": "Sạc an toàn, bền bỉ, hạn chế chai pin tốt nhờ lõi pin Polymer chất lượng cao",
+    "ProductID": 28
+  },
+  {
+    "FeatureID": 112,
+    "Feature": "Sạc lại pin cho sạc dự phòng qua cổng Micro USB 5V – 2A",
+    "ProductID": 28
+  },
+  {
+    "FeatureID": 113,
+    "Feature": "USB Wifi 300Mbps Tenda U3 đen là thiết bị thu sóng Wifi chuẩn N sử dụng cho máy tính để bàn hoặc laptop dễ dàng kết nối mạng Wifi",
+    "ProductID": 29
+  },
+  {
+    "FeatureID": 114,
+    "Feature": "Tốc độ Wifi 300Mbps ổn định ",
+    "ProductID": 29
+  },
+  {
+    "FeatureID": 115,
+    "Feature": "Tương thích với các hệ điều hành thông dụng",
+    "ProductID": 29
+  },
+  {
+    "FeatureID": 116,
+    "Feature": "Bàn phím Magic Keyboard Apple MK2A3 gọn nhẹ, thiết kế tinh tế",
+    "ProductID": 30
+  },
+  {
+    "FeatureID": 117,
+    "Feature": "phản hồi nhanh nhạy,...",
+    "ProductID": 30
+  },
+  {
+    "FeatureID": 118,
+    "Feature": "hỗ trợ bạn tối đa trong quá trình sử dụng.",
+    "ProductID": 30
+  },
+  {
+    "FeatureID": 119,
+    "Feature": "Bàn phím Rapoo với 104 phím thông dụng, phím bấm nhạy bén, tuổi thọ cao",
+    "ProductID": 31
+  },
+  {
+    "FeatureID": 120,
+    "Feature": "Thiết kế hiện đại, tinh tế, gọn đẹp cho không gian dùng",
+    "ProductID": 31
+  },
+  {
+    "FeatureID": 121,
+    "Feature": "Dùng dây nối đầu cáp USB thông dụng, dễ dàng liên kết với PC, laptop",
+    "ProductID": 31
+  },
+  {
+    "FeatureID": 122,
+    "Feature": "Cầm nắm cực kỳ thoải mái",
+    "ProductID": 32
+  },
+  {
+    "FeatureID": 123,
+    "Feature": "Nhìn đã mắt với màn hình sắc nét",
+    "ProductID": 32
+  },
+  {
+    "FeatureID": 124,
+    "Feature": "Máy trang bị 3 camera có độ phân giải cao",
+    "ProductID": 32
+  },
+  {
+    "FeatureID": 125,
+    "Feature": "Trải nghiệm mượt hầu hết các tác vụ",
+    "ProductID": 32
+  },
+  {
+    "FeatureID": 126,
+    "Feature": "Thời lượng sử dụng lâu dài",
+    "ProductID": 32
+  },
+  {
+    "FeatureID": 127,
+    "Feature": "Màu sắc hiển thị rực rỡ",
+    "ProductID": 33
+  },
+  {
+    "FeatureID": 128,
+    "Feature": "Đa dạng màu sắc trẻ trung",
+    "ProductID": 33
+  },
+  {
+    "FeatureID": 129,
+    "Feature": "Ảnh chụp có chi tiết cao, nhiều tính năng mới mẻ",
+    "ProductID": 33
+  },
+  {
+    "FeatureID": 130,
+    "Feature": "Trải nghiệm mượt mà trên mọi tác vụ",
+    "ProductID": 33
+  },
+  {
+    "FeatureID": 131,
+    "Feature": "Sử dụng cả ngày với pin 5000 mAh cùng sạc nhanh 25 W",
+    "ProductID": 33
+  },
+  {
+    "FeatureID": 132,
+    "Feature": "Nổi bật với ngoại hình đầy ấn tượng",
+    "ProductID": 34
+  },
+  {
+    "FeatureID": 133,
+    "Feature": "Chụp ảnh sắc nét thông qua ống kính 108 MP",
+    "ProductID": 34
+  },
+  {
+    "FeatureID": 134,
+    "Feature": "Thỏa sức chiến game một cách mượt mà ",
+    "ProductID": 34
+  },
+  {
+    "FeatureID": 135,
+    "Feature": "Hiệu năng vượt xa mọi giới hạn",
+    "ProductID": 35
+  },
+  {
+    "FeatureID": 136,
+    "Feature": "Cụm camera không ngừng cải tiến",
+    "ProductID": 35
+  },
+  {
+    "FeatureID": 137,
+    "Feature": "Ghi dấu ấn về mặt thiết kế",
+    "ProductID": 35
+  },
+  {
+    "FeatureID": 138,
+    "Feature": "Trải nghiệm xuyên suốt, liền mạch cả ngày dài",
+    "ProductID": 35
+  },
+  {
+    "FeatureID": 139,
+    "Feature": "Ấn tượng với diện mạo thời trang và màn hình chất lượng",
+    "ProductID": 36
+  },
+  {
+    "FeatureID": 140,
+    "Feature": "Thỏa sức nhiếp ảnh hay sáng tạo video với bộ ba camera",
+    "ProductID": 36
+  },
+  {
+    "FeatureID": 141,
+    "Feature": "Hiệu năng mạnh mẽ trong phân khúc",
+    "ProductID": 36
+  },
+  {
+    "FeatureID": 142,
+    "Feature": "Nổi bật với ngoại hình đầy ấn tượng",
+    "ProductID": 37
+  },
+  {
+    "FeatureID": 143,
+    "Feature": "Trải nghiệm tốt hơn trên màn hình lớn",
+    "ProductID": 37
+  },
+  {
+    "FeatureID": 144,
+    "Feature": "Chụp ảnh sắc nét thông qua ống kính 108 MP",
+    "ProductID": 37
+  },
+  {
+    "FeatureID": 145,
+    "Feature": "Thỏa sức chiến game một cách mượt mà",
+    "ProductID": 37
+  },
+  {
+    "FeatureID": 146,
+    "Feature": "Sử dụng dài lâu với pin trâu cực lớn",
+    "ProductID": 37
+  },
+  {
+    "FeatureID": 147,
+    "Feature": "Hiệu năng vượt trội, chinh phục mọi tác vụ",
+    "ProductID": 38
+  },
+  {
+    "FeatureID": 148,
+    "Feature": "Hình ảnh hiển thị sắc nét, màu sắc rực rỡ",
+    "ProductID": 38
+  },
+  {
+    "FeatureID": 149,
+    "Feature": "Thiết kế hiện đại, thời thượng",
+    "ProductID": 38
+  },
+  {
+    "FeatureID": 150,
+    "Feature": "Đa dạng màu sắc trẻ trung",
+    "ProductID": 39
+  },
+  {
+    "FeatureID": 151,
+    "Feature": "Ảnh chụp có chi tiết cao, nhiều tính năng mới mẻ",
+    "ProductID": 39
+  },
+  {
+    "FeatureID": 152,
+    "Feature": "Trải nghiệm mượt mà trên mọi tác vụ",
+    "ProductID": 39
+  },
+  {
+    "FeatureID": 153,
+    "Feature": "Sử dụng cả ngày với pin 5000 mAh cùng sạc nhanh 25 W",
+    "ProductID": 39
+  },
+  {
+    "FeatureID": 154,
+    "Feature": "Pin khỏe, vui lâu",
+    "ProductID": 40
+  },
+  {
+    "FeatureID": 155,
+    "Feature": "Nâng tầm trải nghiệm màn ảnh",
+    "ProductID": 40
+  },
+  {
+    "FeatureID": 156,
+    "Feature": "Chiến game thả ga, không lo gián đoạn",
+    "ProductID": 40
+  },
+  {
+    "FeatureID": 157,
+    "Feature": "Camera kép hỗ trợ AI",
+    "ProductID": 40
+  },
+  {
+    "FeatureID": 158,
+    "Feature": "Ngoại hình đầy màu sắc",
+    "ProductID": 40
+  },
+  {
+    "FeatureID": 159,
+    "Feature": "Hiệu năng ấn tượng đến từ chip M1",
+    "ProductID": 41
+  },
+  {
+    "FeatureID": 160,
+    "Feature": "Màn hình Retina hiển thị sắc nét, màu sắc chính xác",
+    "ProductID": 41
+  },
+  {
+    "FeatureID": 161,
+    "Feature": "Vẻ ngoài sang trọng, đẳng cấp",
+    "ProductID": 41
+  },
+  {
+    "FeatureID": 162,
+    "Feature": "Nâng cấp thiết kế, bộ đôi màn hình siêu đẹp",
+    "ProductID": 42
+  },
+  {
+    "FeatureID": 163,
+    "Feature": "Hiệu năng mạnh chiến mọi tựa game",
+    "ProductID": 42
+  },
+  {
+    "FeatureID": 164,
+    "Feature": "Camera lưu trữ mọi khoảnh khắc quan trọng",
+    "ProductID": 42
+  },
+  {
+    "FeatureID": 165,
+    "Feature": "Viên pin dung lượng cao",
+    "ProductID": 42
+  },
+  {
+    "FeatureID": 166,
+    "Feature": "Thiết kế đơn giản, tinh tế",
+    "ProductID": 43
+  },
+  {
+    "FeatureID": 167,
+    "Feature": "Hiệu năng ổn định cho các nhu cầu cơ bản hằng ngày",
+    "ProductID": 43
+  },
+  {
+    "FeatureID": 168,
+    "Feature": "Camera đủ nhu cầu gọi thoại",
+    "ProductID": 43
+  },
+  {
+    "FeatureID": 169,
+    "Feature": "Thiết kế sang trọng",
+    "ProductID": 44
+  },
+  {
+    "FeatureID": 170,
+    "Feature": "Hỗ trợ chụp ảnh với camera 8 MP",
+    "ProductID": 44
+  },
+  {
+    "FeatureID": 171,
+    "Feature": "Thỏa sức sáng tạo với bút S Pen",
+    "ProductID": 44
+  },
+  {
+    "FeatureID": 172,
+    "Feature": "Trải nghiệm âm thanh tốt hơn",
+    "ProductID": 44
+  },
+  {
+    "FeatureID": 173,
+    "Feature": "Hiệu năng mạnh mẽ ",
+    "ProductID": 44
+  },
+  {
+    "FeatureID": 174,
+    "Feature": "Thời gian sử dụng lâu dài ",
+    "ProductID": 44
+  },
+  {
+    "FeatureID": 175,
+    "Feature": "Thiết kế nguyên khối, mức độ hoàn thiện cao",
+    "ProductID": 45
+  },
+  {
+    "FeatureID": 176,
+    "Feature": "Màn hình giải trí sắc nét, nhiều tính năng bảo vệ người dùng",
+    "ProductID": 45
+  },
+  {
+    "FeatureID": 177,
+    "Feature": "Hiệu năng tốt tích hợp nhiều tính năng thông minh",
+    "ProductID": 45
+  },
+  {
+    "FeatureID": 178,
+    "Feature": "Khả năng nhiếp ảnh tốt cùng thời lượng pin thoải mái cả ngày",
+    "ProductID": 45
+  },
+  {
+    "FeatureID": 179,
+    "Feature": "Trải nghiệm khung hình sống động cùng cảm giác chạm vuốt cực mượt",
+    "ProductID": 46
+  },
+  {
+    "FeatureID": 180,
+    "Feature": "Chinh phục mọi tác vụ với sức mạnh từ chip M1",
+    "ProductID": 46
+  },
+  {
+    "FeatureID": 181,
+    "Feature": "Thỏa sức sáng tạo cùng cụm camera xịn sò",
+    "ProductID": 46
+  },
+  {
+    "FeatureID": 182,
+    "Feature": "Thiết kế đậm chất Xiaomi",
+    "ProductID": 47
+  },
+  {
+    "FeatureID": 183,
+    "Feature": "Cấu hình ổn định, đáp ứng tốt mọi tác vụ cơ bản",
+    "ProductID": 47
+  },
+  {
+    "FeatureID": 184,
+    "Feature": "Cụm camera chất lượng để trải nghiệm",
+    "ProductID": 47
+  },
+  {
+    "FeatureID": 185,
+    "Feature": "Dung lượng pin tốt cho ngày dài sử dụng",
+    "ProductID": 47
+  },
+  {
+    "FeatureID": 186,
+    "Feature": "Nổi bật với diện mạo đầy cuốn hút",
+    "ProductID": 48
+  },
+  {
+    "FeatureID": 187,
+    "Feature": "Hiển thị hình ảnh một cách sinh động",
+    "ProductID": 48
+  },
+  {
+    "FeatureID": 188,
+    "Feature": "Chụp ảnh chuyên nghiệp hơn nhờ bộ đôi camera chất lượng",
+    "ProductID": 48
+  },
+  {
+    "FeatureID": 189,
+    "Feature": "Chiến game ổn định nhờ chip xử lý đến từ Qualcomm",
+    "ProductID": 48
+  },
+  {
+    "FeatureID": 190,
+    "Feature": "Sử dụng lâu hơn nhờ trang bị viên pin lớn",
+    "ProductID": 48
+  },
+  {
+    "FeatureID": 191,
+    "Feature": "Hiệu năng dẫn đầu mọi trận đấu - Chip Snapdragon® 8+ Gen 1 mạnh mẽ cùng RAM 12GB",
+    "ProductID": 49
+  },
+  {
+    "FeatureID": 192,
+    "Feature": "Chất lượng hiển thị đúng chuẩn gaming - Màn hình 6.78 inches, FullHD+, HDR10+ cùng tần số quét 165Hz",
+    "ProductID": 49
+  },
+  {
+    "FeatureID": 193,
+    "Feature": "Thiết kế thân thiện cho chơi game, mặt lưng ánh sáng Aura RGB độc đáo",
+    "ProductID": 49
+  },
+  {
+    "FeatureID": 194,
+    "Feature": "Bùng nổ năng lượng cho ngày dài ấn tượng - Viên pin 6000 mAh, sạc nhanh siêu tốc 65W",
+    "ProductID": 49
+  },
+  {
+    "FeatureID": 195,
+    "Feature": "Thiết kế độc đáo, nhỏ gọn",
+    "ProductID": 50
+  },
+  {
+    "FeatureID": 196,
+    "Feature": "Cấu hình ấn tượng cho khả năng hoạt động hiệu quả",
+    "ProductID": 50
+  },
+  {
+    "FeatureID": 197,
+    "Feature": "Màn hình với tần số quét và độ sáng ấn tượng",
+    "ProductID": 50
+  },
+  {
+    "FeatureID": 198,
+    "Feature": "Hệ thống camera tối ưu với khả năng chụp ảnh sắc nét",
+    "ProductID": 50
+  },
+  {
+    "FeatureID": 199,
+    "Feature": "Tốc độ sạc nhanh chóng, tiết kiệm tối đa thời gian sạc pin",
+    "ProductID": 50
+  },
+  {
+    "FeatureID": 200,
+    "Feature": "Thiết kế trẻ trung, hiện đại, mang đậm phong cách gaming",
+    "ProductID": 51
+  },
+  {
+    "FeatureID": 201,
+    "Feature": "Màn hình đẹp mắt cho trải nghiệm chiến game ấn tượng",
+    "ProductID": 51
+  },
+  {
+    "FeatureID": 202,
+    "Feature": "Khả năng hoạt động ổn định cho trải nghiệm chiến game mượt mà",
+    "ProductID": 51
+  },
+  {
+    "FeatureID": 203,
+    "Feature": "Hệ thống camera được nâng cấp cho hình ảnh sắc nét, sinh động",
+    "ProductID": 51
+  },
+  {
+    "FeatureID": 204,
+    "Feature": "Viên pin với dung lượng ấn tượng cùng tốc độ sạc nhanh chóng",
+    "ProductID": 51
+  },
+  {
+    "FeatureID": 205,
+    "Feature": "Đột phá thiết kế màn hình gập",
+    "ProductID": 52
+  },
+  {
+    "FeatureID": 206,
+    "Feature": "Cụm camera đỉnh cao công nghệ",
+    "ProductID": 52
+  },
+  {
+    "FeatureID": 207,
+    "Feature": "Nâng tầm giải trí màn hình gập với camera ẩn",
+    "ProductID": 52
+  },
+  {
+    "FeatureID": 208,
+    "Feature": "Hiệu năng hàng đầu với Snapdragon 888",
+    "ProductID": 52
+  },
+  {
+    "FeatureID": 209,
+    "Feature": "Thời lượng pin thoải mái sử dụng giải trí",
+    "ProductID": 52
+  },
+  {
+    "FeatureID": 210,
+    "Feature": "Ngoại hình thời trang - cầm nắm cực sang với thiết kế gập vỏ sò độc đáo",
+    "ProductID": 53
+  },
+  {
+    "FeatureID": 211,
+    "Feature": "Công nghệ màn hình hàng đầu đến từ Samsung - 6.7 inch, tấm nền Dynamic AMOLED 2X",
+    "ProductID": 53
+  },
+  {
+    "FeatureID": 212,
+    "Feature": "Trang bị camera chất lượng - Bộ đôi camera có cùng độ phân giải 12 MP, chống rung, chụp đêm",
+    "ProductID": 53
+  },
+  {
+    "FeatureID": 213,
+    "Feature": "Hiệu năng mạnh mẽ đến từ dòng chip cao cấp của Qualcomm - Snapdragon 8+ Gen 1",
+    "ProductID": 53
+  },
+  {
+    "FeatureID": 214,
+    "Feature": "Thiết kế bo cong đậm chất Xiaomi",
+    "ProductID": 54
+  },
+  {
+    "FeatureID": 215,
+    "Feature": "Hiệu năng mạnh mẽ với chip Snapdragon",
+    "ProductID": 54
+  },
+  {
+    "FeatureID": 216,
+    "Feature": "Màn hình sắc nét, chiến game mượt mà",
+    "ProductID": 54
+  },
+  {
+    "FeatureID": 217,
+    "Feature": "Bắt trọn từng khoảnh khắc với cụm camera xịn sò",
+    "ProductID": 54
+  },
+  {
+    "FeatureID": 218,
+    "Feature": "Trải nghiệm theo cách bạn muốn",
+    "ProductID": 54
+  },
+  {
+    "FeatureID": 219,
+    "Feature": "Thiết kế bóng bẩy, các chi tiết được hoàn thiện tốt",
+    "ProductID": 55
+  },
+  {
+    "FeatureID": 220,
+    "Feature": "Hiệu năng ổn định với chip MediaTek",
+    "ProductID": 55
+  },
+  {
+    "FeatureID": 221,
+    "Feature": "Màn hình thiết kế giọt nước, màu sắc hiển thị rực rỡ",
+    "ProductID": 55
+  },
+  {
+    "FeatureID": 222,
+    "Feature": "Camera mang lại chi tiết tốt trong môi trường đủ sáng",
+    "ProductID": 55
+  },
+  {
+    "FeatureID": 223,
+    "Feature": "Pin lớn thoải mái sử dụng ngày dài",
+    "ProductID": 55
+  },
+  {
+    "FeatureID": 224,
+    "Feature": "Thiết kế nguyên khối chắc chắn",
+    "ProductID": 56
+  },
+  {
+    "FeatureID": 225,
+    "Feature": "Màn hình 6.5 inch hiển thị rõ ràng",
+    "ProductID": 56
+  },
+  {
+    "FeatureID": 226,
+    "Feature": "Quay được video chuẩn FullHD với cụm 3 camera Al",
+    "ProductID": 56
+  },
+  {
+    "FeatureID": 227,
+    "Feature": "Hiệu năng ổn định của chip xử lý Unisoc T618",
+    "ProductID": 56
+  },
+  {
+    "FeatureID": 228,
+    "Feature": "Dung lượng pin lớn cho ngày dài sử dụng",
+    "ProductID": 56
+  },
+  {
+    "FeatureID": 229,
+    "Feature": "Hình khối màu trắng đẹp mắt, nhỏ gọn",
+    "ProductID": 57
+  },
+  {
+    "FeatureID": 230,
+    "Feature": "Phát WiFi hiệu quả trên băng tần kép",
+    "ProductID": 57
+  },
+  {
+    "FeatureID": 231,
+    "Feature": "Vẻ ngoài thanh lịch, bắt mắt",
+    "ProductID": 58
+  },
+  {
+    "FeatureID": 232,
+    "Feature": "Thoải mái thưởng thức chương trình yêu thích bất kể ngày đêm",
+    "ProductID": 58
+  },
+  {
+    "FeatureID": 233,
+    "Feature": "Tận hưởng trọn vẹn âm thanh, hình ảnh sắc nét",
+    "ProductID": 58
+  },
+  {
+    "FeatureID": 234,
+    "Feature": "Chipset A15 Bionic mạnh mẽ hàng đầu",
+    "ProductID": 59
+  },
+  {
+    "FeatureID": 235,
+    "Feature": "Thiết kế sang trọng với màn hình giải trí tràn viền",
+    "ProductID": 59
+  },
+  {
+    "FeatureID": 236,
+    "Feature": "Hỗ trợ Apple Pencil 2 tiện lợi",
+    "ProductID": 59
+  },
+  {
+    "FeatureID": 237,
+    "Feature": "Camera trước sau chụp ảnh sắc nét",
+    "ProductID": 59
+  },
+  {
+    "FeatureID": 238,
+    "Feature": "Thiết kế cao cấp, tinh tế và thời trang",
+    "ProductID": 60
+  },
+  {
+    "FeatureID": 239,
+    "Feature": "Cuốn hút thị giác, chạm vuốt mượt mà trên màn hình cao cấp",
+    "ProductID": 60
+  },
+  {
+    "FeatureID": 240,
+    "Feature": "Ấn tượng vượt bậc với khả năng quay chụp từ camera",
+    "ProductID": 60
+  },
+  {
+    "FeatureID": 241,
+    "Feature": "Trải nghiệm mượt mà ở mọi tác vụ",
+    "ProductID": 60
+  },
+  {
+    "FeatureID": 242,
+    "Feature": "Dung lượng pin 4500 mAh, tối ưu trải nghiệm cả ngày dài",
+    "ProductID": 60
+  },
+  {
+    "FeatureID": 243,
+    "Feature": "Hiệu năng vượt trội nhờ chip Apple A15 Bionic",
+    "ProductID": 61
+  },
+  {
+    "FeatureID": 244,
+    "Feature": "Tốc độ 5G tốt hơn ",
+    "ProductID": 61
+  },
+  {
+    "FeatureID": 245,
+    "Feature": "Màn hình Super Retina XDR độ sáng cao, tiết kiệm pin",
+    "ProductID": 61
+  },
+  {
+    "FeatureID": 246,
+    "Feature": "Cụm camera kép nổi bật với nhiều cải tiến",
+    "ProductID": 61
+  },
+  {
+    "FeatureID": 247,
+    "Feature": "Sang trọng, đẳng cấp hơn về ngoại hình",
+    "ProductID": 61
+  },
+  {
+    "FeatureID": 248,
+    "Feature": "Màn hình lớn hơn cho trải nghiệm đã hơn",
+    "ProductID": 62
+  },
+  {
+    "FeatureID": 249,
+    "Feature": "Nhiều chế độ luyện tập, huấn luyện viên ảo chuyên nghiệp",
+    "ProductID": 62
+  },
+  {
+    "FeatureID": 250,
+    "Feature": "Trợ lý sức khoẻ ngay trên cổ tay",
+    "ProductID": 62
+  },
+  {
+    "FeatureID": 251,
+    "Feature": "Cấu hình mạnh mẽ với con chip Exynos W920",
+    "ProductID": 63
+  },
+  {
+    "FeatureID": 252,
+    "Feature": "Thiết kế năng động, dây đeo silicone êm nhẹ",
+    "ProductID": 63
+  },
+  {
+    "FeatureID": 253,
+    "Feature": "Kháng nước chuẩn 5 ATM, thời lượng pin tốt",
+    "ProductID": 63
+  },
+  {
+    "FeatureID": 254,
+    "Feature": "Kiểu dáng thời thượng với thiết kế đặc trưng của Apple",
+    "ProductID": 64
+  },
+  {
+    "FeatureID": 255,
+    "Feature": "Hiệu suất nhanh hơn với bộ vi xử lý hoàn toàn mới",
+    "ProductID": 64
+  },
+  {
+    "FeatureID": 256,
+    "Feature": "Tính năng phát hiện va chạm",
+    "ProductID": 64
+  },
+  {
+    "FeatureID": 257,
+    "Feature": "Diện mạo thời thượng, màn hình AMOLED sắc nét",
+    "ProductID": 65
+  },
+  {
+    "FeatureID": 258,
+    "Feature": "Cảm biến PPG tân tiến",
+    "ProductID": 65
+  },
+  {
+    "FeatureID": 259,
+    "Feature": "Chế độ luyện tập phong phú, GPS băng tần kép hiện đại",
+    "ProductID": 65
+  },
+  {
+    "FeatureID": 260,
+    "Feature": "Kháng nước 5 ATM, viên pin lớn cho trải nghiệm trọn vẹn",
+    "ProductID": 65
+  },
+  {
+    "FeatureID": 261,
+    "Feature": "Và nhiều tiện ích hơn chờ bạn trải nghiệm",
+    "ProductID": 65
+  },
+  {
+    "FeatureID": 262,
+    "Feature": "Hình khối màu trắng đẹp mắt, nhỏ gọn",
+    "ProductID": 66
+  },
+  {
+    "FeatureID": 263,
+    "Feature": "Phát WiFi hiệu quả trên băng tần kép",
+    "ProductID": 66
+  },
+  {
+    "FeatureID": 264,
+    "Feature": "Kết nối tốc độ cao cho nhiều thiết bị cùng lúc qua công nghệ MU-MIMO",
+    "ProductID": 66
+  },
+  {
+    "FeatureID": 265,
+    "Feature": "Cấu hình định sẵn dễ dàng cài đặt",
+    "ProductID": 66
+  },
+  {
+    "FeatureID": 266,
+    "Feature": "Hỗ trợ quản lý nhẹ nhàng trên ứng dụng Tenda WiFi",
+    "ProductID": 66
+  },
+  {
+    "FeatureID": 267,
+    "Feature": "Phạm vi phủ sóng wifi 100 m2, kết hợp bộ 3 thiết bị phủ sóng đến 300 m2",
+    "ProductID": 66
+  },
+  {
+    "FeatureID": 268,
+    "Feature": "Hình khối màu trắng đẹp mắt, nhỏ gọn",
+    "ProductID": 67
+  },
+  {
+    "FeatureID": 269,
+    "Feature": "Phát WiFi hiệu quả trên băng tần kép",
+    "ProductID": 67
+  },
+  {
+    "FeatureID": 270,
+    "Feature": "Giải trí cực đã với màn hình siêu nét",
+    "ProductID": 68
+  },
+  {
+    "FeatureID": 271,
+    "Feature": "Hiệu năng hàng đầu phân khúc",
+    "ProductID": 68
+  },
+  {
+    "FeatureID": 272,
+    "Feature": "Pin dung lượng lớn, tích hợp sạc nhanh",
+    "ProductID": 68
+  },
+  {
+    "FeatureID": 273,
+    "Feature": "Camera 13 MP mang lại ảnh chụp chất lượng",
+    "ProductID": 68
+  },
+  {
+    "FeatureID": 274,
+    "Feature": "Thiết kế nguyên khối sang trọng, cao cấp ",
+    "ProductID": 68
+  },
+  {
+    "FeatureID": 275,
+    "Feature": "Hỗ trợ bút cảm ứng thông minh",
+    "ProductID": 68
+  },
+  {
+    "FeatureID": 276,
+    "Feature": "Thiết kế thời thượng và cao cấp",
+    "ProductID": 69
+  },
+  {
+    "FeatureID": 277,
+    "Feature": "Bút S Pen mới tối ưu hiệu suất sử dụng",
+    "ProductID": 69
+  },
+  {
+    "FeatureID": 278,
+    "Feature": "Trải nghiệm giải trí đỉnh cao",
+    "ProductID": 69
+  },
+  {
+    "FeatureID": 279,
+    "Feature": "Kết nối dễ dàng, thêm nhiều tiện tích",
+    "ProductID": 70
+  },
+  {
+    "FeatureID": 280,
+    "Feature": "Thiết kế năng động, dây đeo silicone êm nhẹ",
+    "ProductID": 70
+  },
+  {
+    "FeatureID": 281,
+    "Feature": "Trợ lý sức khoẻ ngay trên cổ tay",
+    "ProductID": 70
+  },
+  {
+    "FeatureID": 282,
+    "Feature": "Thoả sức lựa chọn chế độ thể thao yêu thích",
+    "ProductID": 70
+  },
+  {
+    "FeatureID": 283,
+    "Feature": "Mạnh mẽ để luôn đồng hành",
+    "ProductID": 70
+  },
+  {
+    "FeatureID": 284,
+    "Feature": "Gây ấn tượng với ngoại hình sang trọng, lịch lãm",
+    "ProductID": 71
+  },
+  {
+    "FeatureID": 285,
+    "Feature": "Cảm biến sức khoẻ cao cấp",
+    "ProductID": 71
+  },
+  {
+    "FeatureID": 286,
+    "Feature": "Đa dạng chế độ luyện tập, khả năng định vị chuẩn xác",
+    "ProductID": 71
+  },
+  {
+    "FeatureID": 287,
+    "Feature": "Kháng nước chuẩn 5 ATM, thời lượng pin tốt",
+    "ProductID": 71
+  },
+  {
+    "FeatureID": 288,
+    "Feature": "Phong cách năng động, thời thượng",
+    "ProductID": 72
+  },
+  {
+    "FeatureID": 289,
+    "Feature": "Màn hình sắc nét, hiển thị rõ ràng",
+    "ProductID": 72
+  },
+  {
+    "FeatureID": 290,
+    "Feature": "Dễ dàng kết nối với 'dế yêu' thông qua Bluetooth v5.0",
+    "ProductID": 72
+  },
+  {
+    "FeatureID": 291,
+    "Feature": "Cấu hình mạnh mẽ với con chip Exynos W920",
+    "ProductID": 72
+  },
+  {
+    "FeatureID": 292,
+    "Feature": "Cấu trúc mỏng gọn, trọng lượng chỉ 558g, mang theo đến bất kỳ nơi nào",
+    "ProductID": 73
+  },
+  {
+    "FeatureID": 293,
+    "Feature": "Hệ thống 101 phím có lực nảy tốt, nhạy bén",
+    "ProductID": 73
+  },
+  {
+    "FeatureID": 294,
+    "Feature": "Hỗ trợ kết nối không dây mạnh mẽ với công nghệ Bluetooth và bộ thu USB Logitech Unifying 2.4GHz",
+    "ProductID": 73
+  },
+  {
+    "FeatureID": 295,
+    "Feature": "Sử dụng được với nhiều thiết bị, chuyển đổi linh hoạt 2 máy với nút Easy Switch",
+    "ProductID": 73
+  }
+]

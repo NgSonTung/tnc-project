@@ -1,0 +1,35 @@
+.main-slider {
+  margin-top: 5rem;
+}
+
+.sub-slider {
+  margin: 2rem 0;
+  ::ng-deep .slick-list {
+    margin: 0 -20px;
+  }
+  ::ng-deep .slick-slide {
+    margin: 0 20px !important;
+  }
+}
+
+.category-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .category-item {
+    width: 24%;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+}
+
+.brand-slider {
+  margin: 2rem 0;
+  ::ng-deep .slick-list {
+    margin: 0 -30px;
+  }
+  ::ng-deep .slick-slide {
+    margin: 0 30px !important;
+  }
+}

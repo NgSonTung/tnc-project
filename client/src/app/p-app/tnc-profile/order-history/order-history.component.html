@@ -1,0 +1,151 @@
+<div class="wrapper">
+  <div class="user-title">
+    <div class="profile-img">
+      <img src="assets/img/avt_profile.webp" />
+    </div>
+    <div class="user-welcom">
+      <p class="name">{{ fullName }}</p>
+      <p class="name-line"></p>
+    </div>
+  </div>
+  <div class="user-history-info">
+    <div class="info-box">
+      <p class="quantity">{{ orderTotal }}</p>
+      <p class="topic-name">đơn hàng</p>
+    </div>
+    <div class="info-box">
+      <p class="quantity">{{ totalPay | number : "1.0-0" }} VND</p>
+      <p class="topic-name">Tổng tiền tích lũy</p>
+    </div>
+  </div>
+  <!-- <div class="order-date-range">
+    <kendo-daterange>
+      <kendo-floatinglabel text="Start">
+        <kendo-dateinput
+          kendoDateRangeStartInput
+          [(value)]="range.start"
+        ></kendo-dateinput>
+      </kendo-floatinglabel>
+      <kendo-floatinglabel text="End">
+        <kendo-dateinput
+          kendoDateRangeEndInput
+          [(value)]="range.end"
+        ></kendo-dateinput>
+      </kendo-floatinglabel>
+    </kendo-daterange>
+  </div> -->
+  <div class="orders-grid-container">
+    <!-- <div class="status-filter-container">
+      <div class="status-btn selected">Tất cả</div>
+      <div class="status-btn">Chờ xác nhận</div>
+      <div class="status-btn">Đã xác nhận</div>
+      <div class="status-btn">Đang vận chuyển</div>
+      <div class="status-btn">Đã giao hàng</div>
+      <div class="status-btn">Đã hủy</div>
+    </div> -->
+    <div class="grid-wrapper">
+      <kendo-grid [data]="orderGridView | async" [pageSize]="20">
+        <kendo-grid-column field="OrderID" title="No" [width]="50">
+          <ng-template
+            kendoGridCellTemplate
+            let-dataItem
+            let-rowIndex="rowIndex"
+          >
+            <span>{{ dataItem.OrderID }}</span>
+          </ng-template>
+        </kendo-grid-column>
+        <kendo-grid-column field="TotalPrice" title="Tổng tiền">
+          <ng-template
+            kendoGridCellTemplate
+            let-dataItem
+            let-rowIndex="rowIndex"
+          >
+            <span>{{ dataItem.TotalPrice | number : "1.0-0" }} VND</span>
+          </ng-template>
+        </kendo-grid-column>
+        <kendo-grid-column field="StatusName" title="Trạng thái">
+          <ng-template
+            kendoGridCellTemplate
+            let-dataItem
+            let-rowIndex="rowIndex"
+          >
+            <span>{{ dataItem.StatusName | titlecase }}</span>
+          </ng-template>
+        </kendo-grid-column>
+        <kendo-grid-column field="PaymentName" title="Phương thức">
+          <ng-template
+            kendoGridCellTemplate
+            let-dataItem
+            let-rowIndex="rowIndex"
+          >
+            <span>{{ dataItem.PaymentName | titlecase }}</span>
+          </ng-template>
+        </kendo-grid-column>
+        <kendo-grid-column [width]="120">
+          <ng-template kendoGridCellTemplate let-dataItem>
+            <button
+              class="cancel-order"
+              kendoButton
+              [themeColor]="'info'"
+              (click)="getOrderDetail(dataItem.OrderID)"
+            >
+              Chi tiết
+            </button>
+          </ng-template>
+        </kendo-grid-column>
+        <kendo-grid-column [width]="80">
+          <ng-template kendoGridCellTemplate let-dataItem>
+            <button
+              *ngIf="dataItem.StatusID == 2"
+              (click)="selectedOrderForCancellation = dataItem; open()"
+              class="cancel-order"
+              kendoButton
+              [themeColor]="'error'"
+            >
+              Hủy
+            </button>
+          </ng-template>
+        </kendo-grid-column>
+      </kendo-grid>
+    </div>
+  </div>
+
+  <div
+    #searchContainer
+    class="search-products-wrapper"
+    *ngIf="isDetailProductPopupOpened"
+  >
+    <div class="close-icon" (click)="toggleProductPopup(false)">X</div>
+    <div class="product-item" *ngFor="let data of orderDetailProductList">
+      <img
+        class="product-img"
+        [src]="'data:image/jpeg;base64,' + data.ImgSrc"
+        [alt]="data.Image"
+      />
+      <div class="product-info">
+        <p class="name">{{ data.Name }}</p>
+        <p class="price">{{ data.Price }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cancel-popup" *ngIf="isCanceled">
+    <div class="title">Hủy đơn hàng</div>
+    <div class="content">Bạn có chắc muốn hủy đơn hàng?</div>
+    <div class="btn-group">
+      <button
+        kendoButton
+        (click)="close('no', selectedOrderForCancellation.OrderID)"
+      >
+        No
+      </button>
+      <button
+        kendoButton
+        (click)="close('yes', selectedOrderForCancellation.OrderID)"
+        themeColor="primary"
+      >
+        Yes
+      </button>
+    </div>
+  </div>
+</div>

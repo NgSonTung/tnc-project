@@ -1,0 +1,11 @@
+<div class="nav-container">
+  <div class="nav-logo">N</div>
+  <div
+    class="nav-item"
+    *ngFor="let item of navItems; let i = index"
+    [ngClass]="{ selected: i === selectedIndex }"
+    (click)="setSelectedIndex(i)"
+  >
+    <img class="nav-item-img" [src]="item.src" />
+  </div>
+</div>

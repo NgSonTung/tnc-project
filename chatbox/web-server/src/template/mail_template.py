@@ -1,0 +1,432 @@
+from flask import current_app
+
+contact_us_mail_template = "mailto:admin@2gai.ai"
+
+
+def main_mail_template(subject, say_hi, title, content, button_url="#", button_name="", ps=""):
+    html_content = f"""
+
+
+
+        <!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <title>{subject}</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      font-family: 'Inter', sans-serif ;
+      background-color: #f5f5f5;
+    ">
+    <table
+      role="presentation"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      align="center"
+      width="580px"
+      style="padding-top: 32px; padding-bottom: 32px">
+      <tr>
+        <td>
+          <table
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            align="center"
+            width="100%"
+            style="background-color: white; margin: 0 auto">
+            <tr>
+              <td
+                style="
+                  text-align: center;
+                  margin: 15px 0;
+                  height: 120px;
+                  color: white;
+                  align-items: center;
+                ">
+                <img
+                  src="{current_app.config["IMAGE_BASE_URL"]}api/v1/image/webai_email_header.png"
+                  alt="header"
+                  style="width: 100%; height: 100%; object-fit: cover;pointer-events: none;" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table
+                  style="
+                    padding: 32px 24px;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    width:100%;
+                  ">
+                  <tr>
+                    <td>
+                      <tr>
+                        <td style="text-align: left; margin-top: 24px;">
+                          <span style="font-family: 'Inter', sans-serif">{say_hi}</span>
+                          <p style="font-weight: 700;font-family: 'Inter', sans-serif">
+                            {title}
+                          </p>
+                          <p style="margin-top: 24px;font-family: 'Inter', sans-serif">
+                            {content}
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="text-align: left; padding-top: 14px">
+                          <a
+                            href="{button_url}"
+                            style="
+                              background-color: #6938EF;
+                              color: white;
+                              border: none;
+                              border-radius: 8px;
+                              padding: 10px 18px;
+                              font-size: 1rem;
+                              font-weight: 500;
+                              cursor: pointer;
+                              text-decoration: none;
+                              left: 0;
+                              font-family: 'Inter', sans-serif;
+                            "
+                            >{button_name}</a
+                          >
+                        </td>
+                      </tr>
+                       <tr>
+                        <td style="text-align: left; margin-top: 12px">
+                          <p style="margin-top: 24px;font-family: 'Inter', sans-serif">
+                          {ps}
+                          </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td style="text-align: left;">
+                          <p
+                            style="
+                              font-size: 16px;
+                              font-weight: 400;
+                              white-space: normal;
+                              font-family: 'Inter', sans-serif;
+                            ">
+                            Thank you, WebAI Pilot Team
+                          </p>
+                        </td>
+                      </tr>
+                    </td>
+                  </tr>
+                  <tr style="height: 44px"></tr>
+                  <tr>
+                    <td
+                      style="
+                        height: auto;
+                        padding-top: 32px;
+                        padding-bottom: 32px;
+                        border-top: 1px solid #eaecf0;
+                      ">
+                      <table
+                        align="center"
+                        style="
+                          color: #475467;
+                          font-size: 14px;
+                          font-style: normal;
+                          font-weight: 400;
+                          line-height: 20px;
+                        ">
+                        <tr>
+                          <td colspan="2" style="text-align: center">
+                            <a
+                              href="{current_app.config["WEBSITE_URL"]}"
+                              style="margin-right: 16px; color: #475467;font-family: 'Inter', sans-serif"
+                              >Website</a
+                            >
+                            <a
+                              href="{current_app.config["TERM_URL"]}"
+                              style="margin-right: 16px; color: #475467;font-family: 'Inter', sans-serif"
+                              >Terms</a
+                            >
+                            <a
+                              href="{current_app.config["PRIVACY_URL"]}"
+                              style="margin-right: 16px; color: #475467;font-family: 'Inter', sans-serif"
+                              >Privacy</a
+                            >
+                            <a href="{contact_us_mail_template}" style="color: #475467;font-family: 'Inter', sans-serif">Contact us</a>
+                          </td>
+                        </tr>
+                        <tr style="height: 24px"></tr>
+
+                        <tr>
+                          <td
+                            colspan="2"
+                            style="text-align: center; vertical-align: middle;font-family: 'Inter', sans-serif">
+                            <span>© 2023 WebAI Pilot Ltd.</span>
+                          </td>
+                        </tr>
+                        <tr style="height: 12px"></tr>
+                        <tr>
+                          <td
+                            style="
+                              text-align: center;
+                              width: 100%;
+                              padding-right: 14px;
+                            ">
+                            <img
+                              src="{current_app.config["IMAGE_BASE_URL"]}api/v1/image/icon_mailpng.png"
+                              alt="icon_mail"
+                              style="
+                                width: 21.297px;
+                                height: 21.297px;
+                                vertical-align: middle;
+                              " />
+                            <span
+                              style="
+                                vertical-align: middle;
+                                color: #475467;
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif
+                              "
+                              >admin@2gai.ai</span
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+        """
+    return html_content
+
+
+def main_mail_template_non_button(subject, say_hi, title, content, ps=""):
+    html_content = f"""
+
+
+
+        <!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <title>{subject}</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      font-family: 'Inter', sans-serif ;
+      background-color: #f5f5f5;
+    ">
+    <table
+      role="presentation"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      align="center"
+      width="580px"
+      style="padding-top: 32px; padding-bottom: 32px">
+      <tr>
+        <td>
+          <table
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            align="center"
+            width="100%"
+            style="background-color: white; margin: 0 auto">
+            <tr>
+              <td
+                style="
+                  text-align: center;
+                  margin: 15px 0;
+                  height: 120px;
+                  color: white;
+                  align-items: center;
+                ">
+                <img
+                  src="{current_app.config["IMAGE_BASE_URL"]}api/v1/image/webai_email_header.png"
+                  alt="header"
+                  style="width: 100%; height: 100%; object-fit: cover;pointer-events: none;" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table
+                  style="
+                    padding: 32px 24px;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    width:100%;
+                  ">
+                  <tr>
+                    <td>
+                      <tr>
+                        <td style="text-align: left; margin-top: 24px">
+                          <span style="font-family: 'Inter', sans-serif">{say_hi}</span>
+                          <p style="font-weight: 700;font-family: 'Inter', sans-serif">
+                            {title}
+                          </p>
+                          <p style="margin-top: 24px;font-family: 'Inter', sans-serif">
+                            {content}
+                          </p>
+                        </td>
+                      </tr>
+                       <tr>
+                        <td style="text-align: left; margin-top: 12px;font-family: 'Inter', sans-serif">
+                          <p style="margin-top: 24px">
+                          {ps}
+                          </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td style="text-align: left;">
+                          <p
+                            style="
+                              font-size: 16px;
+                              font-weight: 400;
+                              white-space: normal;
+                              font-family: 'Inter', sans-serif;
+                            ">
+                            Thank you, WebAI Pilot Team
+                          </p>
+                        </td>
+                      </tr>
+                    </td>
+                  </tr>
+                  <tr style="height: 44px"></tr>
+                  <tr>
+                    <td
+                      style="
+                        height: auto;
+                        padding-top: 32px;
+                        padding-bottom: 32px;
+                        border-top: 1px solid #eaecf0;
+                      ">
+                      <table
+                        align="center"
+                        style="
+                          color: #475467;
+                          font-size: 14px;
+                          font-style: normal;
+                          font-weight: 400;
+                          line-height: 20px;
+                          font-family: 'Inter', sans-serif;
+                        ">
+                        <tr>
+                          <td colspan="2" style="text-align: center">
+                            <a
+                              href="{current_app.config["WEBSITE_URL"]}"
+                              style="margin-right: 16px; color: #475467;font-family: 'Inter', sans-serif"
+                              >Website</a
+                            >
+                            <a
+                              href="{current_app.config["TERM_URL"]}"
+                              style="margin-right: 16px; color: #475467;font-family: 'Inter', sans-serif"
+                              >Terms</a
+                            >
+                            <a
+                              href="{current_app.config["PRIVACY_URL"]}"
+                              style="margin-right: 16px; color: #475467;font-family: 'Inter', sans-serif"
+                              >Privacy</a
+                            >
+                            <a href="{contact_us_mail_template}" style="color: #475467;font-family: 'Inter', sans-serif">Contact us</a>
+                          </td>
+                        </tr>
+                        <tr style="height: 24px"></tr>
+
+                        <tr>
+                          <td
+                            colspan="2"
+                            style="text-align: center; vertical-align: middle;font-family: 'Inter', sans-serif">
+                            <span>© 2023 WebAI Pilot Ltd.</span>
+                          </td>
+                        </tr>
+                        <tr style="height: 12px"></tr>
+                        <tr>
+                          <td
+                            style="
+                              text-align: center;
+                              width: 100%;
+                              padding-right: 14px;
+                            ">
+                            <img
+                              src="{current_app.config["IMAGE_BASE_URL"]}api/v1/image/icon_mailpng.png"
+                              alt="icon_mail"
+                              style="
+                                width: 21.297px;
+                                height: 21.297px;
+                                vertical-align: middle;
+                              " />
+                            <span
+                              style="
+                                vertical-align: middle;
+                                color: #475467;
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif
+                              "
+                              >admin@2gai.ai</span
+                            >
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+        """
+    return html_content

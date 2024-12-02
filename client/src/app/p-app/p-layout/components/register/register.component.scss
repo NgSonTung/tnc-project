@@ -1,0 +1,122 @@
+.register-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.467);
+  backdrop-filter: blur(1px);
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+
+  .register-form {
+    z-index: 999999;
+    width: 30%;
+    height: 80%;
+    background-color: #005ec4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    position: relative;
+    overflow: hidden;
+
+    .register-exit {
+      width: 35px;
+      height: 35px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: rgba(54, 64, 101, 0.31);
+      cursor: pointer;
+
+      img {
+        object-fit: contain;
+        width: 100%;
+        aspect-ratio: 1;
+      }
+    }
+    .register-title {
+      font-size: 30px;
+      font-weight: 600;
+      background-color: #29324e;
+      height: 20%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2%;
+    }
+
+    .register-option {
+      padding: 0 10%;
+      display: flex;
+      gap: 30px;
+      .register-question {
+        // styles for the register question
+      }
+      .register-checkbox {
+        // styles for the register checkbox
+      }
+    }
+    .register-question {
+      // styles for the register question
+    }
+
+    .register-input {
+      padding: 0 10%;
+      animation: slideIn 0.2s ease-in-out forwards;
+
+      .register-text {
+        width: 100%;
+        height: 40px;
+        padding: 0 5px;
+      }
+    }
+
+    .register-input:last-of-type {
+      margin-bottom: 20px;
+    }
+
+    .invalid-feedback {
+      font-size: 12px;
+      opacity: 0.6;
+    }
+
+    .register-submit {
+      width: 100%;
+      height: 50px;
+      background-color: #29324e;
+      color: #ffffff;
+      margin-top: auto;
+    }
+
+    .submit-btn {
+      padding: 0 10%;
+
+      .k-button {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

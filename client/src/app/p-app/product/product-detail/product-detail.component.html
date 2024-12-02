@@ -1,0 +1,136 @@
+<div class="wrapper">
+  <app-breadcrumb [plusBreadCrumbText]="breadCrumbList"></app-breadcrumb>
+
+  <div class="product-wrapper">
+    <div class="main-img-slider" style="width: 50%">
+      <div style="width: 100%; border: 1px solid #dddfe6">
+        <app-slider-container
+          [imgs]="subImgList"
+          [type]="'subimgs'"
+        ></app-slider-container>
+      </div>
+      <div class="subimg-slider" style="border: 1px solid #dddfe6">
+        <app-slider-container
+          [autoPlay]="false"
+          [slidesToScroll]="1"
+          [imgs]="subImgList"
+          [type]="'img'"
+          [slidesToShow]="3"
+        >
+        </app-slider-container>
+      </div>
+    </div>
+    <div class="product-info-wrapper">
+      <div class="info-header">
+        <p class="product-name">{{ productDetail.Name | uppercase }}</p>
+        <span class="sale-off"
+          >SALE OFF {{ productDetail.Sale | percentage }}</span
+        >
+      </div>
+      <div class="product-brand">
+        <span class="product-general">
+          Thương hiệu:
+          <span class="highlight-text">{{ productDetail.BrandName }}</span>
+        </span>
+      </div>
+      <div class="rating-wrapper">
+        <star-rating
+          [hoverEnabled]="true"
+          speed="slow"
+          [starType]="'svg'"
+          [rating]="rating"
+          (starClickChange)="onRatingProduct($event)"
+        >
+        </star-rating>
+      </div>
+      <span class="product-description">
+        {{ productDetail.Description }}
+      </span>
+      <div class="product-status">
+        <span class="status-text">{{
+          productDetail.Stock > 0 ? " CÒN HÀNG" : "HẾT HÀNG"
+        }}</span>
+        <span class="old-price"
+          >{{ productDetail.Price | number : "1.0-0" }} đ</span
+        >
+      </div>
+      <div class="product-quantity-cart">
+        <div style="display: flex; gap: 25px">
+          <p class="title">Số lượng</p>
+          <div class="quantity-wrapper">
+            <p class="quantity-text">{{ cartQuantity }}</p>
+            <div class="quantity-button">
+              <span
+                class="k-icon k-i-plus"
+                (click)="onHandleQuantity('increase')"
+              ></span>
+              <span
+                class="k-icon k-i-minus"
+                (click)="onHandleQuantity('decrease')"
+              ></span>
+            </div>
+          </div>
+        </div>
+        <p class="sale-price">
+          {{
+            productDetail.Price
+              | salePricePipe : productDetail.Sale
+              | number : "1.0-0"
+          }}
+          đ
+        </p>
+      </div>
+
+      <div class="cart-button-hadling">
+        <button
+          class="cart-btn add-cart-btn"
+          fillMode="none"
+          kendoButton
+          imageUrl="assets/icon/icon_cart.svg"
+          (click)="addToCart()"
+        >
+          THÊM VÀO GIỎ
+        </button>
+        <button
+          class="cart-btn buy-btn"
+          fillMode="none"
+          kendoButton
+          imageUrl="assets/icon/icon_addWhite.svg"
+          (click)="buyNow()"
+        >
+          MUA HÀNG
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="policies-wrapper">
+    <div class="policy-item" *ngFor="let policy of policyList">
+      <img src="../../../../assets/icon/{{ policy.iconName }}" />
+      <p>{{ policy.text }}</p>
+    </div>
+  </div>
+  <nav-title [inputTitle]="'QUÀ TẶNG & KHUYẾN MÃI'"></nav-title>
+  <!-- GIFT -->
+  <div class="gift-info-wrapper">
+    <div class="info-detail-wrapper">
+      <p class="title">Ưu đãi khi mua sản phẩm</p>
+      <div class="info-box">
+        <div class="left-box">
+          <p>Gói quà tặng bao gồm:</p>
+          <p>- Tặng Voucher giảm giá 1.500K (Đã trừ thẳng vào giá)</p>
+          <p>- Tặng Voucher 5% tối đa 500K áp dụng cho KH mua Gear</p>
+          <p>
+            - Giảm trực tiếp 3% khi khách hàng mua thêm tản khí hoặc pack fan
+          </p>
+          <p>- Hỗ trợ trả góp với lãi suất 0%</p>
+        </div>
+        <div class="right-box">
+          <p>Đang chọn</p>
+        </div>
+      </div>
+    </div>
+    <div class="gift-bg">
+      <img src="assets/img/bg_gift.webp" />
+    </div>
+  </div>
+</div>

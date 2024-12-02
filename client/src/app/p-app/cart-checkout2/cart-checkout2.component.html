@@ -1,0 +1,179 @@
+<div class="cart-background">
+  <div class="cart-container">
+    <div class="cart-content">
+      <div class="cart-item-wrapper">
+        <div class="steps-container">
+          <div class="step-wrapper step1">
+            <p class="step-title">1. Chọn sản phẩm</p>
+          </div>
+          <div class="step-wrapper step2">
+            <p class="step-title">2. Xác nhận đơn hàng</p>
+          </div>
+          <div class="step-wrapper step3">
+            <p class="step-title">3. Thanh toán</p>
+          </div>
+        </div>
+        <div
+          *ngIf="products.length == 0; else product"
+          class="cart-item-sub-wrapper"
+        >
+          <p class="cart-item-placeholder">
+            Bạn đang không có sản phẩm nào <br />
+            trong giỏ hàng.
+          </p>
+        </div>
+        <ng-template #product>
+          <div class="cart-item-sub-wrapper2">
+            <form
+              class="cart-item-info"
+              [formGroup]="deliverForm"
+              (ngSubmit)="onSubmit()"
+            >
+              <div class="cart-item-title">THÔNG TIN GIAO HÀNG</div>
+              <div class="cart-item-input">
+                <input
+                  class="cart-item-checkbox"
+                  type="checkbox"
+                  [formControl]="isBindUserInfo"
+                />
+                <label class="cart-item-checkbox-label" for="name"
+                  >Sử dụng thông tin khách hàng để giao hàng</label
+                >
+              </div>
+              <div class="cart-item-input">
+                <label class="cart-item-label" for="name"
+                  >Họ & tên người nhận<span class="asterik">*</span>
+                </label>
+                <input
+                  required
+                  formControlName="name"
+                  class="cart-item-text"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nhập tên khách hàng"
+                />
+              </div>
+              <div class="cart-item-input">
+                <label class="cart-item-label" for="email"
+                  >Địa chỉ email<span class="asterik">*</span></label
+                >
+                <input
+                  formControlName="email"
+                  required
+                  class="cart-item-text"
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Nhập email"
+                />
+              </div>
+              <div class="cart-item-input">
+                <label class="cart-item-label" for="phone"
+                  >Số điện thoại<span class="asterik">*</span></label
+                >
+                <input
+                  formControlName="number"
+                  required
+                  class="cart-item-text"
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="Nhập số điện thoại"
+                />
+              </div>
+              <div class="cart-item-input">
+                <label class="cart-item-label" for="address"
+                  >Địa chỉ<span class="asterik">*</span></label
+                >
+                <input
+                  formControlName="address"
+                  required
+                  class="cart-item-text"
+                  type="text"
+                  id="address"
+                  name="address"
+                  placeholder="Nhập địa chỉ"
+                />
+              </div>
+              <div class="line"></div>
+              <div class="cart-item-title">HÌNH THỨC THANH TOÁN</div>
+              <div class="cart-item-input">
+                <input
+                  required
+                  formControlName="payment_method"
+                  class="cart-item-radio"
+                  type="radio"
+                  id="COD"
+                  name="payment_method"
+                  value="COD"
+                />
+                <label class="cart-item-label" for="COD"
+                  >Thanh toán tại nơi giao hàng</label
+                >
+              </div>
+              <div class="cart-item-input">
+                <input
+                  required
+                  formControlName="payment_method"
+                  class="cart-item-radio"
+                  type="radio"
+                  id="VNPAY"
+                  name="payment_method"
+                  value="VNPAY"
+                />
+                <label class="cart-item-label" for="VNPAY"
+                  >Thanh toán với ví VNPAY</label
+                >
+              </div>
+              <div class="line"></div>
+
+              <div class="cart-item-title">Điểm tích lũy</div>
+
+              <div class="cart-item-input">
+                <input
+                  required
+                  formControlName="usePoint"
+                  class="cart-item-radio"
+                  type="checkbox"
+                  id="usePoint"
+                  name="usePoint"
+                />
+                <label class="cart-item-label" for="vnpay"
+                  >Check để giảm giá trên điểm tích lũy</label
+                >
+              </div>
+            </form>
+          </div>
+        </ng-template>
+      </div>
+
+      <div class="cart-info-wrapper">
+        <div class="cart-info-sub-wrapper">
+          <p class="cart-info-title">Thông tin giỏ hàng</p>
+          <div class="cart-info-quantity">
+            <p class="cart-info-quantity-txt">Số lượng sản phẩm</p>
+            <p class="cart-info-quantity-no">{{ amount }}</p>
+          </div>
+          <div class="cart-info-total">
+            <p class="cart-info-total-txt">Tổng chi phí</p>
+            <p class="cart-info-total-no">{{ total | number : "1.0-0" }} đ</p>
+          </div>
+          <p class="cart-info-tax">Đã bao gồm VAT (nếu có)</p>
+          <div *ngFor="let product of products" class="cart-info-product">
+            <div class="line"></div>
+            <div class="cart-info-product-name">
+              {{ product.Name }}
+            </div>
+            <div class="cart-info-product-price">
+              {{ product.Price | vnCurrency }}đ
+            </div>
+          </div>
+          <div (click)="checkOut()" class="checkout-btn-wrapper">
+            <p class="checkout-btn-txt">XÁC NHẬN ĐƠN HÀNG</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

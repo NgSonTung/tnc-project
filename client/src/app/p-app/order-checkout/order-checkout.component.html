@@ -1,0 +1,44 @@
+<div class="order-checkout-wrapper">
+    <app-p-header></app-p-header>
+    <div class="checkbox-box-wrapper">
+        <div class="container">
+            <app-breadcrumb></app-breadcrumb>
+            <div class="checkout-box-content">
+                <p class="checkout-title">
+                    Kiểm tra thông tin đơn hàng
+                    <span>
+                        <br>
+                        & tình trạng vận chuyển
+                    </span>
+                </p>
+                <form class="checkout-form">
+                    <kendo-label text="Số điện thoại (bắt buộc)">
+                        <kendo-textbox placeholder="Số điện thoại (bắt buộc)"></kendo-textbox>
+                    </kendo-label>
+                    <kendo-label text="Mã đơn hàng (bắt buộc)">
+                        <kendo-textbox placeholder="Mã đơn hàng (bắt buộc)"></kendo-textbox>
+                    </kendo-label>
+                    <button class="check-btn" kendoButton  fillMode="solid">Kiểm tra</button>
+                    <div class="separate-line">
+                        <hr>
+                        Hoặc
+                        <hr>
+                    </div>
+                    <button 
+                        (click)="onOpenLoginForm()"
+                        class="login-btn" 
+                        kendoButton  
+                        fillMode="solid">
+                        Đăng nhập để tra cứu thuận tiện hơn
+                    </button>
+                </form>
+                <div class="bg-img">
+                    <img src="assets/img/bg_checkout.webp">
+                </div>
+                <div class="bg-order-check"></div>
+            </div>
+        </div>
+        <app-register *ngIf="isOpenLoginForm"></app-register>
+    </div>
+    <app-footer></app-footer>
+</div>

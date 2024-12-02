@@ -1,0 +1,62 @@
+<div class="footer-container">
+    <div class="container">
+        <div class="footer-links-container">
+            <div class="link-list-wrapper">
+                <span class="link-title">Danh mục sản phẩm</span>
+                <ul class="link-item-list">
+                    <li class="link-item" *ngFor="let item of categoryList">
+                        {{item.categoryName}}
+                    </li>
+                </ul>
+            </div>
+            <div class="link-list-wrapper">
+                <span class="link-title">Thông tin chung</span>
+                <ul class="link-item-list">
+                    <li class="link-item" *ngFor="let item of generalInfo">
+                        {{item}}
+                    </li>
+                </ul>
+            </div>
+            <div class="link-list-wrapper">
+                <span class="link-title">Chính sách chung</span>
+                <ul class="link-item-list">
+                    <li class="link-item" *ngFor="let item of genralPolicy">
+                        {{item}}
+                    </li>
+                </ul>
+            </div>
+            <div class="link-list-wrapper">
+                <span class="link-title">Thông tin khuyến mãi</span>
+                <ul class="link-item-list">
+                    <li class="link-item" *ngFor="let item of promotionInfo">
+                        {{item}}
+                    </li>
+                </ul>
+            </div>
+            <div class="link-list-wrapper">
+                <span class="link-title">Follow us!</span>
+                <div class="social-media-wrapper">
+                    <img *ngFor="let icon of socialIcons" src="{{icon}}">
+                </div>
+            </div>
+        </div>
+        <div class="footer-company-info">
+            <span class="link-title">Công ty TNHH Thương mại & Tin học Tú Nguyệt</span>
+            <div class="info-wrapper">
+                <div>
+                    Showroom : 172 Lê Thanh Nghị, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội / Tel: (024) 36288790 /
+                    (086)
+                    830.2123
+                    <br>
+                    Trung tâm bảo hành : 172 Lê Thanh Nghị, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội / Tel: (098) 978
+                    1468
+                    <br>
+                    Trụ sở (Không bán hàng): 11 Vũ Thạnh - Cát Linh - Đống Đa - Hà Nội / Tel: (086) 8302123; Fax : (024)
+                    36288790
+                </div>
+
+                <img src="../../../../../assets/img/footer-img.png">
+            </div>
+        </div>
+    </div>
+</div>
